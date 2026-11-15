@@ -1,0 +1,23 @@
+IELTS BOOST — STAGE 60 FINAL REPOSITORY ROOT
+Target repository: davronegamberdiyev42-svg/finally-
+GitHub Pages URL: https://davronegamberdiyev42-svg.github.io/finally-/
+GitHub Pages path: /finally-/
+Branch: main (create the first commit on main; repository was empty at package preparation)
+Pages source: Deploy from a branch -> main -> /(root)
+
+Keep these paths together at repository root:
+index.html
+assets/
+data/
+audio/
+icons/
+manifest.webmanifest
+sw.js
+release-check.html
+docs/
+tests/
+.nojekyll
+README.md
+
+Do not upload the ZIP file itself as the site. Extract it first and upload all contents to repository root.
+standalone.html is a historical Stage 52 fallback; index.html is the Stage 60 app entrypoint.
