@@ -1,0 +1,267 @@
+
+name: Deploy IELTS Boost to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Arrange files and deploy site
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Rebuild the correct website folder structure
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          python3 - <<'PY'
+          from pathlib import Path
+          import json
+          import shutil
+
+          repo = Path.cwd()
+          site = repo / "_site"
+          if site.exists():
+              shutil.rmtree(site)
+          site.mkdir(parents=True)
+
+          structured = all(
+              (repo / name).is_dir()
+              for name in ("assets", "data", "audio", "icons")
+          )
+
+          if structured:
+              for item in repo.iterdir():
+                  if item.name in {
+                      ".git", ".github", "_site",
+                      "node_modules", ".venv"
+                  }:
+                      continue
+                  target = site / item.name
+                  if item.is_dir():
+                      shutil.copytree(item, target, dirs_exist_ok=True)
+                  elif item.is_file():
+                      shutil.copy2(item, target)
+          else:
+              for folder in (
+                  "assets/css", "assets/js/core",
+                  "assets/js/compat", "assets/js/modules",
+                  "assets/js/stages", "data", "audio",
+                  "icons", "docs", "tests"
+              ):
+                  (site / folder).mkdir(parents=True, exist_ok=True)
+
+              root_files = [
+                  p for p in repo.iterdir() if p.is_file()
+              ]
+
+              root_names = {
+                  "index.html", "release-check.html",
+                  "standalone.html", "manifest.webmanifest",
+                  "sw.js", "favicon.svg",
+                  "README.md", "README_UZ.md",
+                  "GITHUB_UPLOAD_GUIDE_UZ.md",
+                  "INSTALL_FINAL_STAGE_UZ.md",
+                  "QA_REPORT_UZ.md", ".nojekyll"
+              }
+
+              data_names = {
+                  "app-data.json",
+                  "vocabulary-index.json",
+                  "stage47-listening-companions.json",
+                  "stage47-skill-resources.json",
+                  "stage47-task1-datasets.json",
+                  "stage48-vocabulary-coverage.json",
+                  "stage58-vocabulary.json"
+              }
+
+              js_paths = {
+                  "advanced-studio.js":
+                      "assets/js/modules/advanced-studio.js",
+                  "backup-manager.js":
+                      "assets/js/modules/backup-manager.js",
+                  "boot.js": "assets/js/core/boot.js",
+                  "contract.js": "assets/js/core/contract.js",
+                  "module-registry.js":
+                      "assets/js/core/module-registry.js",
+                  "legacy-core.js":
+                      "assets/js/compat/legacy-core.js",
+                  "release-check.js":
+                      "assets/js/release-check.js",
+                  "stage40-50.js":
+                      "assets/js/stage40-50.js",
+                  "stage58-adaptive.js":
+                      "assets/js/stages/stage58-adaptive.js",
+                  "stage59-scoring-engine.js":
+                      "assets/js/stages/stage59-scoring-engine.js",
+                  "stage60-listening-hub.js":
+                      "assets/js/stages/stage60-listening-hub.js",
+                  "sw.js": "sw.js"
+              }
+
+              for src in root_files:
+                  name = src.name
+
+                  if name in root_names:
+                      shutil.copy2(src, site / name)
+
+                  elif name.endswith(".css"):
+                      shutil.copy2(
+                          src, site / "assets/css" / name
+                      )
+
+                  elif name.endswith(".mp3"):
+                      shutil.copy2(src, site / "audio" / name)
+
+                  elif name.endswith(".png") and name.startswith("icon-"):
+                      shutil.copy2(src, site / "icons" / name)
+
+                  elif name in data_names:
+                      shutil.copy2(src, site / "data" / name)
+
+                  elif name.endswith(".js"):
+                      if name.startswith("run_"):
+                          shutil.copy2(src, site / "tests" / name)
+                      elif name in js_paths:
+                          shutil.copy2(src, site / js_paths[name])
+                      else:
+                          raise SystemExit(
+                              f"Unmapped JavaScript file: {name}"
+                          )
+
+                  elif name.endswith(".py"):
+                      shutil.copy2(src, site / "tests" / name)
+
+                  elif name.endswith(".json"):
+                      shutil.copy2(src, site / "docs" / name)
+
+                  elif name.endswith((".md", ".csv", ".txt")):
+                      shutil.copy2(src, site / "docs" / name)
+
+                  elif name.endswith((".html", ".svg", ".webmanifest")):
+                      shutil.copy2(src, site / name)
+
+                  elif name == ".nojekyll":
+                      shutil.copy2(src, site / name)
+
+                  else:
+                      shutil.copy2(src, site / "docs" / name)
+
+          (site / ".nojekyll").write_text("", encoding="utf-8")
+
+          required = [
+              "index.html",
+              "manifest.webmanifest",
+              "sw.js",
+              "release-check.html",
+              "assets/css/app-core.css",
+              "assets/css/stage60-listening.css",
+              "assets/js/core/boot.js",
+              "assets/js/core/contract.js",
+              "assets/js/core/module-registry.js",
+              "assets/js/compat/legacy-core.js",
+              "assets/js/modules/advanced-studio.js",
+              "assets/js/modules/backup-manager.js",
+              "assets/js/stages/stage58-adaptive.js",
+              "assets/js/stages/stage59-scoring-engine.js",
+              "assets/js/stages/stage60-listening-hub.js",
+              "data/app-data.json",
+              "data/vocabulary-index.json",
+              "icons/icon-192.png",
+              "icons/icon-512.png",
+              ".nojekyll"
+          ]
+
+          missing = [
+              name for name in required
+              if not (site / name).is_file()
+          ]
+
+          if missing:
+              raise SystemExit(
+                  "Required website files are missing after restructuring:\n- "
+                  + "\n- ".join(missing)
+              )
+
+          mp3s = list(
+              (site / "audio").glob("listening-day-*.mp3")
+          )
+
+          if len(mp3s) != 84:
+              raise SystemExit(
+                  f"Expected 84 daily MP3 files in _site/audio; found {len(mp3s)}"
+              )
+
+          for name in (
+              "app-data.json",
+              "stage58-vocabulary.json",
+              "stage47-listening-companions.json"
+          ):
+              with (site / "data" / name).open(encoding="utf-8") as f:
+                  json.load(f)
+
+          total_files = sum(
+              1 for p in site.rglob("*") if p.is_file()
+          )
+
+          print(
+              f"Website layout ready: {total_files} files; "
+              f"{len(mp3s)} MP3 tracks; structured={structured}"
+          )
+
+          import os
+          with Path(os.environ["GITHUB_STEP_SUMMARY"]).open(
+              "a", encoding="utf-8"
+          ) as summary:
+              summary.write("## Website package prepared\n\n")
+              summary.write(f"- Files staged: **{total_files}**\n")
+              summary.write(f"- Listening MP3 tracks: **{len(mp3s)} / 84**\n")
+              summary.write(
+                  f"- Folder structure repaired: "
+                  f"**{'No — already structured' if structured else 'Yes — rebuilt from flat root'}**\n"
+              )
+          PY
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload the complete website
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Print the live website link
+        if: success()
+        env:
+          PAGE_URL: ${{ steps.deployment.outputs.page_url }}
+        shell: bash
+        run: |
+          echo "## IELTS Boost is published" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "**Website:** ${PAGE_URL}" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "[Open IELTS Boost](${PAGE_URL})" >> "$GITHUB_STEP_SUMMARY"
+          echo "Published website: ${PAGE_URL}"
