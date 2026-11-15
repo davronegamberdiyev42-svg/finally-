@@ -1,0 +1,52 @@
+{
+  "release": "59.0.0-precision-scoring",
+  "passed": 11,
+  "failed": 0,
+  "total": 11,
+  "checks": [
+    {
+      "id": "release-59-contract-and-registry",
+      "pass": true
+    },
+    {
+      "id": "all-existing-storage-namespaces-unchanged",
+      "pass": true
+    },
+    {
+      "id": "curriculum-contract-remains-84-day-and-original-volume",
+      "pass": true
+    },
+    {
+      "id": "registry-dependency-chain-stage59-before-studio-before-stage58",
+      "pass": true
+    },
+    {
+      "id": "boot-orders-stage59-scoring-before-advanced-studio-and-stage58",
+      "pass": true
+    },
+    {
+      "id": "stage59-engine-api-present-and-immutable",
+      "pass": true
+    },
+    {
+      "id": "objective-score-adapter-keeps-old-scale-and-stage59-ratio",
+      "pass": true
+    },
+    {
+      "id": "advanced-studio-uses-evidence-led-four-criteria-and-writing-task-weight",
+      "pass": true
+    },
+    {
+      "id": "full-backup-schema-remains-the-existing-stage55-manager",
+      "pass": true
+    },
+    {
+      "id": "service-worker-precache-includes-stage59-and-retains-stage58",
+      "pass": true
+    },
+    {
+      "id": "html-manifest-and-release-check-advertise-stage59",
+      "pass": true
+    }
+  ]
+}

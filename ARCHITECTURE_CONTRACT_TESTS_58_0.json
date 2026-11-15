@@ -1,0 +1,44 @@
+{
+  "release": "58.0.0-adaptive-release",
+  "passed": 9,
+  "failed": 0,
+  "total": 9,
+  "checks": [
+    {
+      "id": "release-58-contract",
+      "pass": true
+    },
+    {
+      "id": "storage-namespaces-preserved",
+      "pass": true
+    },
+    {
+      "id": "curriculum-contract-preserved",
+      "pass": true
+    },
+    {
+      "id": "module-registry-orders-stage58-dependencies",
+      "pass": true
+    },
+    {
+      "id": "duplicate-invalid-modules-and-status-rejected",
+      "pass": true
+    },
+    {
+      "id": "registry-snapshot-is-immutable",
+      "pass": true
+    },
+    {
+      "id": "boot-orders-stage58-after-storage-dependencies",
+      "pass": true
+    },
+    {
+      "id": "studio-extension-storage-is-backward-compatible",
+      "pass": true
+    },
+    {
+      "id": "service-worker-precache-includes-stage58-assets",
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "release": "59.0.0-precision-scoring",
+  "passed": 10,
+  "failed": 0,
+  "total": 10,
+  "results": [
+    {
+      "file": "assets/js/compat/legacy-core.js",
+      "pass": true,
+      "stderr": ""
+    },
+    {
+      "file": "assets/js/core/boot.js",
+      "pass": true,
+      "stderr": ""
+    },
+    {
+      "file": "assets/js/core/contract.js",
+      "pass": true,
+      "stderr": ""
+    },
+    {
+      "file": "assets/js/core/module-registry.js",
+      "pass": true,
+      "stderr": ""
+    },
+    {
+      "file": "assets/js/modules/advanced-studio.js",
+      "pass": true,
+      "stderr": ""
+    },
+    {
+      "file": "assets/js/modules/backup-manager.js",
+      "pass": true,
+      "stderr": ""
+    },
+    {
+      "file": "assets/js/release-check.js",
+      "pass": true,
+      "stderr": ""
+    },
+    {
+      "file": "assets/js/stage40-50.js",
+      "pass": true,
+      "stderr": ""
+    },
+    {
+      "file": "assets/js/stages/stage58-adaptive.js",
+      "pass": true,
+      "stderr": ""
+    },
+    {
+      "file": "assets/js/stages/stage59-scoring-engine.js",
+      "pass": true,
+      "stderr": ""
+    }
+  ],
+  "method": "node --check for every JavaScript file under assets/js"
+}

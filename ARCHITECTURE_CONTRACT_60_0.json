@@ -1,0 +1,94 @@
+{
+  "release": "60.0.0-real-listening",
+  "suite": "Stage 60 Architecture & Contract QA",
+  "passed": 17,
+  "failed": 0,
+  "total": 17,
+  "results": [
+    {
+      "id": "contract-release-60",
+      "pass": true,
+      "detail": "60.0.0-real-listening"
+    },
+    {
+      "id": "existing-data-hashes-preserved",
+      "pass": true,
+      "detail": "app-data and vocabulary integrity fingerprints unchanged"
+    },
+    {
+      "id": "module-registry-release-60",
+      "pass": true,
+      "detail": "60.0.0"
+    },
+    {
+      "id": "stage60-boot-after-all-dependencies",
+      "pass": true,
+      "detail": "Stage 60 depends on Backup, Studio, Stage 58 and Stage 59"
+    },
+    {
+      "id": "stage60-css-and-js-assets-available",
+      "pass": true,
+      "detail": "JS and CSS present"
+    },
+    {
+      "id": "index-loads-stage60-css",
+      "pass": true,
+      "detail": "Stage 60 styles linked"
+    },
+    {
+      "id": "advanced-studio-exposes-validated-objective-record",
+      "pass": true,
+      "detail": "Listening answer-key scores saved using Stage 59 objective format"
+    },
+    {
+      "id": "stage60-is-extension-and-local-audio-only",
+      "pass": true,
+      "detail": "extension.stage60 + shared Stage55 IndexedDB audio store"
+    },
+    {
+      "id": "84-day-listening-data-is-complete",
+      "pass": true,
+      "detail": "84 tracks / 84 original scripts / 420 questions"
+    },
+    {
+      "id": "audio-files-match-each-day",
+      "pass": true,
+      "detail": "84 local MP3 assets present"
+    },
+    {
+      "id": "manifest-and-service-worker-release-match",
+      "pass": true,
+      "detail": "manifest, cache release, Stage60 assets and legacy shared audio cache aligned"
+    },
+    {
+      "id": "strict-exam-mode-and-transcript-gate-exist",
+      "pass": true,
+      "detail": "one-play mode and transcript hidden until completion"
+    },
+    {
+      "id": "wer-disclaimer-not-ielts-score",
+      "pass": true,
+      "detail": "WER clearly bounded to word-level text comparison"
+    },
+    {
+      "id": "external-natural-audio-sources-and-terms",
+      "pass": true,
+      "detail": "curated links, no copied provider audio"
+    },
+    {
+      "id": "rights-and-private-information-confirmation",
+      "pass": true,
+      "detail": "import gated by user rights and privacy confirmation"
+    },
+    {
+      "id": "release-check-has-stage60-acceptance",
+      "pass": true,
+      "detail": "Stage 60 contract and assets covered"
+    },
+    {
+      "id": "stage57-standalone-remains-fallback",
+      "pass": true,
+      "detail": "standalone fallback retained"
+    }
+  ]
+}

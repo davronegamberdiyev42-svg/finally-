@@ -1,0 +1,252 @@
+{
+  "release": "60.0.0-real-listening",
+  "method": "Chromium with exact ZIP build bytes fulfilled through an isolated HTTPS request route; real browser DOM, localStorage and IndexedDB; Service Worker blocked and simulated separately.",
+  "passed": 47,
+  "failed": 0,
+  "total": 47,
+  "checks": [
+    {
+      "id": "BOOT_AND_STAGE58_MODULE_READY",
+      "pass": true,
+      "detail": "{'release': '60.0.0-real-listening', 'ready': True, 'modules': [{'id': 'app-data', 'status': 'ready', 'version': '57.0.0'}, {'id': 'legacy-core', 'status': 'ready', 'version': '52.0.0-compat'}, {'id': 'backup-manager', 'status': 'ready', 'version': '55.0.0'}, {'id': 'stage59-scoring', 'status': 'ready', 'version': '59.0.0'}, {'id': 'advanced-studio', 'status': 'ready', 'version': '59.0.0'}, {'id': 'vocabulary-index', 'status': 'registered', 'version': '57.0.0'}, {'id': 'stage58-adaptive', 'status': 'ready', 'version': '58.0.0'}, {'id': 'stage60-listening', 'status': 'ready', 'version': '60.0.0"
+    },
+    {
+      "id": "STAGE60_MODULE_READY",
+      "pass": true,
+      "detail": "{'version': '60.0.0', 'module': 'ready'}"
+    },
+    {
+      "id": "STAGE57_RUNTIME_PRESERVED",
+      "pass": true,
+      "detail": "Main navigation, embedded curriculum data and legacy core still present."
+    },
+    {
+      "id": "50_VOCABULARY_CARDS_LOADED",
+      "pass": true,
+      "detail": "{'loaded': True, 'count': 50, 'error': ''}"
+    },
+    {
+      "id": "NO_UNSUPPORTED_BASELINE_INFERENCE",
+      "pass": true,
+      "detail": "[{'skill': 'reading', 'route': 'unassessed'}, {'skill': 'listening', 'route': 'unassessed'}, {'skill': 'writing', 'route': 'unassessed'}, {'skill': 'speaking', 'route': 'unassessed'}]"
+    },
+    {
+      "id": "READING_REPEATED_RAW_EVIDENCE",
+      "pass": true,
+      "detail": "{'skill': 'reading', 'route': 'core', 'score': 75, 'focus': 'Matching headings', 'focusTask': 'Matching headings: har paragrafning asosiy vazifasini 5–8 so‘zda ifoda et; misolni main idea deb qabul qilma.', 'confidence': 'Repeated answer-key evidence · 3 unique attempts', 'reason': '3 ta noyob answer-key natijasi birlashtirildi. Oxirgi tanlangan zaif task: Matching headings. Manbalar: Practice source A; Practice source B; Practice source C. Bu xom aniqlik, IELTS bandi emas.', 'errorCount': 0, 'priority': 2.25}"
+    },
+    {
+      "id": "LISTENING_REPEATED_RAW_EVIDENCE",
+      "pass": true,
+      "detail": "{'skill': 'listening', 'route': 'core', 'score': 60, 'focus': 'Distractors / correction cues', 'focusTask': 'Correction cues: “actually”, “rather”, “sorry”, “instead” kabi tuzatish signallaridan keyin yakuniy javobni tanla.', 'confidence': 'Repeated answer-key evidence · 3 unique attempts', 'reason': '3 ta noyob answer-key natijasi birlashtirildi. Oxirgi tanlangan zaif task: Distractors / correction cues. Manbalar: Listening source A; Listening source B; Listening source C. Bu xom aniqlik, IELTS bandi emas.', 'errorCount': 0, 'priority': 2.25}"
+    },
+    {
+      "id": "WRITING_SAMPLE_AND_CRITERION_GUIDANCE",
+      "pass": true,
+      "detail": "{'skill': 'writing', 'route': 'core', 'score': None, 'focus': 'Coherence & cohesion, Task response, Lexical precision', 'focusTask': 'Coherence repair: paragraph purpose’ni aniqlab, topic sentence → explanation → example → link zanjirini tekshir.', 'weakCriteria': ['Coherence & cohesion', 'Task response', 'Lexical precision'], 'confidence': 'Learner sample + structured self-reflection (not examiner assessed)', 'reason': '138 so‘z · 4/4 kuzatilgan mezon · Fokus: Coherence & cohesion, Task response, Lexical precision · self-review, examiner bahosi emas.', 'errorCount': 0, 'priority': 2.25}"
+    },
+    {
+      "id": "SPEAKING_TRANSCRIPT_NOT_PHONETIC_SCORE",
+      "pass": true,
+      "detail": "{'skill': 'speaking', 'route': 'core', 'score': None, 'focus': 'Lexical resource, Fluency & coherence', 'focusTask': 'Lexical repair: 5 ta foydali iborani kontekstda o‘rgan; ularni majburlamasdan aniq va tabiiy ishlat.', 'weakCriteria': ['Lexical resource', 'Fluency & coherence'], 'confidence': 'Learner sample + structured self-reflection (not examiner assessed)', 'reason': '111 so‘z · 3/4 kuzatilgan mezon · Fokus: Lexical resource, Fluency & coherence · pronunciation audio review yo‘q · self-review, examiner bahosi emas.', 'errorCount': 0, 'priority': 2.25}"
+    },
+    {
+      "id": "ADAPTIVE_PLAN_HAS_SEVEN_TASKS_AND_12_WEEK_PHASES",
+      "pass": true,
+      "detail": "{'days': 7, 'weeks': 4, 'first': 'DAY 1 · REPAIR\\nReading\\n\\nMatching headings: har paragrafning asosiy vazifasini 5–8 so‘zda ifoda et; misolni main idea deb qabul qilma.'}"
+    },
+    {
+      "id": "ADAPTIVE_PLAN_USES_SELECTED_WEAK_TASK",
+      "pass": true,
+      "detail": "DAY 1 · REPAIR\nReading\n\nMatching headings: har paragrafning asosiy vazifasini 5–8 so‘zda ifoda et; misolni main idea deb qabul qilma."
+    },
+    {
+      "id": "VOCAB_CONTEXT_OWN_SENTENCE_AND_SRS",
+      "pass": true,
+      "detail": "{'attempts': 1, 'correct': True, 'status': 'practised', 'due': '2026-11-19', 'lastAnswer': 'citizens', 'revealed': True, 'ownSentence': 'Citizens can improve local services by joining community discussions.', 'naturalChecked': True, 'lastPractised': '2026-11-15', 'lastGrade': 'good'}"
+    },
+    {
+      "id": "PRESSURE_TEST_COUNTS_CONTEXTUAL_ALTERNATIVES",
+      "pass": true,
+      "detail": "{'wordCount': 127, 'found': ['People → citizens', 'Important → essential', 'Good → beneficial', 'Develop → foster', 'Increase (verb) → boost'], 'message': '2–5 ta target concept ishlatilgan. Ularning tabiiy va aniq ekanini o‘zing qayta o‘qi.'}"
+    },
+    {
+      "id": "CROSS_SKILL_TRANSFER_PROGRESS_SAVED",
+      "pass": true,
+      "detail": "{'checks': {'read': True, 'note': True, 'paraphrase': True, 'speak': True, 'transcribe': True, 'correct': True, 'repeat': True}, 'lastSource': 'Original educational article: public transport'}"
+    },
+    {
+      "id": "STAGE59_STUDIO_TRIGGER_AVAILABLE",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "id": "STAGE59_SCORING_ENGINE_BOOTED",
+      "pass": true,
+      "detail": "{'engine': '59.0.0', 'mod': 'ready', 'boot': '60.0.0'}"
+    },
+    {
+      "id": "READING_RAW_MARKS_AND_EVIDENCE_AUDIT",
+      "pass": true,
+      "detail": "{'previews': ['8/10 marks · 80.0% accuracy · 8/10 correct · 0 blank · raw result only (no band conversion)', '9/10 marks · 90.0% accuracy · 9/10 correct · 0 blank · raw result only (no band conversion)', '7/10 marks · 70.0% accuracy · 7/10 correct · 0 blank · raw result only (no band conversion)'], 'records': [{'id': 'S1794747456193', 'stage59': True, 'day': 1, 'type': 'reading', 'promptId': 'S59-READING-1', 'date': '2026-11-15', 'score': 8, 'objective': True, 'accuracy': 0.8, 'provenance': 'Answer key · Teacher-checked key (user-reported)', 'sourceLabel': 'Teacher-checked key (user-reported)'"
+    },
+    {
+      "id": "LISTENING_IS_ANSWER_KEY_OBJECTIVE_NOT_SELF_REVIEW",
+      "pass": true,
+      "detail": "[{'id': 'S1794747456923', 'stage59': True, 'day': 1, 'type': 'listening', 'promptId': 'S59-LISTENING-1', 'date': '2026-11-15', 'score': 6, 'objective': True, 'accuracy': 0.6, 'provenance': 'Answer key · Publisher answer key (user-selected)', 'sourceLabel': 'Publisher answer key (user-selected)', 'keySource': 'publisher', 'keySourceLabel': 'Publisher answer key (user-selected)', 'rawResult': {'questionCount': 10, 'correctQuestions': 6, 'blankQuestions': 0, 'correctMarks': 6, 'totalMarks': 10, 'accuracyPct': 60, 'practiceIndex10': 6, 'items': [{'question': 1, 'key': 'S59-LISTENING-1-answer-1', '"
+    },
+    {
+      "id": "STAGE58_ADAPTIVE_CONSUMES_STAGE59_RAW_RATIOS",
+      "pass": true,
+      "detail": "{'r': {'skill': 'reading', 'route': 'core', 'score': 77.5, 'focus': 'Matching headings', 'focusTask': 'Matching headings: har paragrafning asosiy vazifasini 5–8 so‘zda ifoda et; misolni main idea deb qabul qilma.', 'confidence': 'Repeated answer-key evidence · 6 unique attempts', 'reason': '6 ta noyob answer-key natijasi birlashtirildi. Oxirgi tanlangan zaif task: Matching headings. Manbalar: Practice source A; Practice source B; Practice source C. Bu xom aniqlik, IELTS bandi emas.', 'errorCount': 0, 'priority': 2.25}, 'l': {'skill': 'listening', 'route': 'core', 'score': 65, 'focus': 'Distrac"
+    },
+    {
+      "id": "ALTERNATES_AND_QUESTION_WEIGHTS",
+      "pass": true,
+      "detail": "4/4 marks · 100.0% accuracy · 3/3 correct · 0 blank · raw result only (no band conversion)"
+    },
+    {
+      "id": "NO_AUTOMATIC_RAW_SCORE_TO_BAND",
+      "pass": true,
+      "detail": "4/4 marks · 100.0% accuracy · 3/3 correct · 0 blank · raw result only (no band conversion)"
+    },
+    {
+      "id": "WRITING_CRITERIA_AND_TASK2_DOUBLE_WEIGHT",
+      "pass": true,
+      "detail": "{'task1Preview': '6.00 / 9 formative practice rating · 4/4 evidence notes · Learner self-review · independent verification absent', 'task2Preview': '7.00 / 9 formative practice rating · 4/4 evidence notes · Learner self-review · independent verification absent', 'calculation': {'task1': 6, 'task2': 7, 'combined': 6.667}}"
+    },
+    {
+      "id": "SPEAKING_AUDIO_EVIDENCE_GATE",
+      "pass": true,
+      "detail": "{'before': 9, 'after': 9, 'toast': 'Speaking pronunciation uchun saqlangan audio yozuvni tanla.'}"
+    },
+    {
+      "id": "STAGE59_SCORES_INCLUDED_IN_UNIFIED_BACKUP",
+      "pass": true,
+      "detail": "{'parsed': True, 'format': 'IELTSBoost.FullDeviceBackup', 'stage59Records': 9, 'extensions': ['stage58']}"
+    },
+    {
+      "id": "STAGE59_MOBILE_SCORING_NO_HORIZONTAL_OVERFLOW",
+      "pass": true,
+      "detail": "{'width': 390, 'doc': 390, 'body': 390, 'dialog': 390}"
+    },
+    {
+      "id": "STAGE58_STATE_INCLUDED_IN_FULL_DEVICE_BACKUP",
+      "pass": true,
+      "detail": "{'format': 'IELTSBoost.FullDeviceBackup', 'parsed': True, 'hasStage58': True, 'keys': ['stage58']}"
+    },
+    {
+      "id": "DESKTOP_CLOSE_RESTORES_FOCUS",
+      "pass": true,
+      "detail": "True"
+    },
+    {
+      "id": "MOBILE_390_NO_HORIZONTAL_OVERFLOW",
+      "pass": true,
+      "detail": "{'width': 390, 'doc': 390, 'body': 390, 'dialog': 390}"
+    },
+    {
+      "id": "MOBILE_CLOSE_RESTORES_FOCUS",
+      "pass": true,
+      "detail": "True"
+    },
+    {
+      "id": "STAGE60_BUILTIN_LISTENING_BANK_84_420",
+      "pass": true,
+      "detail": "{'version': '60.0.0', 'tracks': 84, 'questions': 420}"
+    },
+    {
+      "id": "BUILTIN_AUDIO_PROVENANCE_VISIBLE",
+      "pass": true,
+      "detail": "IELTS BOOST · STAGE 60 · REAL LISTENING\nListening Intelligence Hub\n\nNatural audio · synced transcript · dictation · shadowing · evidence-based error repair\n\n×\n▣\nAudio library\n♫\nPlayer & test\nAa\nDictation\n◉\nShadowing\n⌁\nError intelligence\n↗\nResources\nNATURAL SPEECH TRAINING\nTabiiy inglizcha audioni o‘zingning IELTS mashqingga aylantir.\n\nO‘zingga tegishli yoki ishlatishga ruxsating bor MP3/WAV/M4A/OGG/WEBM faylni import qil. VTT/SRT/JSON transcriptni sinxronla; har bir audio uchun quiz, dictation v"
+    },
+    {
+      "id": "BUNDLED_DAY1_RAW_ANSWER_KEY_MARKS",
+      "pass": true,
+      "detail": "{'id': 'attempt-mwhuaqlc-8x48y607ct', 'itemId': 'builtin-day-01', 'title': 'In-App Listening · Day 1: Sleep And Work · Interview', 'day': 1, 'questionCount': 5, 'correctQuestions': 5, 'blankQuestions': 0, 'correctMarks': 5, 'totalMarks': 5, 'accuracyPct': 100, 'source': 'IELTS Boost bundled original answer key', 'keySourceVerified': True, 'adaptiveSynced': True, 'createdAt': '2026-11-15T12:57:39.360Z'}"
+    },
+    {
+      "id": "BUILTIN_PLAYER_POINTS_TO_DAY1_LOCAL_MP3",
+      "pass": true,
+      "detail": "https://stage60.invalid/finally-/audio/listening-day-01.mp3"
+    },
+    {
+      "id": "THREE_UNIQUE_LISTENING_TESTS_SYNC_TO_STAGE58",
+      "pass": true,
+      "detail": "{'studioRecords': [{'id': 'S60-1794747459360-1l6534', 'stage60': True, 'stage59': True, 'day': 1, 'type': 'listening', 'promptId': 'builtin-day-01', 'date': '2026-11-15', 'objective': True, 'accuracy': 1, 'score': 10, 'correctMarks': 5, 'totalMarks': 5, 'correctQuestions': 5, 'questionCount': 5, 'provenance': 'IELTS Boost bundled original script + answer key', 'sourceLabel': 'IELTS Boost bundled original script + answer key', 'format': 'stage59-answer-key-v1', 'stage60AttemptId': 'attempt-mwhuaqlc-8x48y607ct'}, {'id': 'S60-1794747459525-qtmdx0', 'stage60': True, 'stage59': True, 'day': 2, 'typ"
+    },
+    {
+      "id": "STRICT_EXAM_TRANSCRIPT_GATE",
+      "pass": true,
+      "detail": "{'hidden': True, 'toast': 'Strict one-play mode hides transcript until the complete recording has finished.'}"
+    },
+    {
+      "id": "STRICT_EXAM_NO_PAUSE_AFTER_START",
+      "pass": true,
+      "detail": "{'pauseCalls': 0, 'toast': 'Strict one-play mode: playback cannot be paused after it starts. Switch to practice mode for pause, replay or cue controls.'}"
+    },
+    {
+      "id": "DICTATION_WER_AND_ERROR_REPAIR_SAVED",
+      "pass": true,
+      "detail": "{'result': '0\\nWord edits\\n0.0%\\nWord Error Rate\\n100.0%\\nToken similarity indicator\\n\\nWER is an educational text-comparison metric, not IELTS scoring. Punctuation/capitalisation are normalised; it does not assess pronunciation or meaning.', 'dictations': 1, 'errors': [{'id': 'err-mwhuarec-1p6mbnxw5d', 'itemId': 'builtin-day-03', 'dictationId': 'dict-mwhuaral-9s8wkebop6', 'kind': 'distractor', 'kindLabel': 'Distractor / correction cue', 'heard': 'Host: This is an academic skills briefing on historical objects. The aim is to identify factual details and the limits of a small investigation.\\n\\n"
+    },
+    {
+      "id": "NATURAL_AUDIO_RESOURCE_HUB_HAS_BRITISH_COUNCIL",
+      "pass": true,
+      "detail": "https://learnenglish.britishcouncil.org/free-resources/general/audio-zone"
+    },
+    {
+      "id": "CUSTOM_AUDIO_AND_VTT_IMPORT",
+      "pass": true,
+      "detail": "{'id': 'audio-mwhuaroe-v1m5a5l1ph', 'blobId': 's60-audio-mwhuaroe-v1m5a5l1ph', 'title': 'Stage 60 browser test clip', 'filename': 'stage60-test.wav', 'mime': 'audio/wav', 'size': 44, 'part': '1', 'level': 'A2', 'accent': 'British', 'taskType': 'Multiple choice', 'sourceName': 'Original local test recording', 'sourceUrl': '', 'usage': 'own', 'transcript': 'Welcome to the library.', 'transcriptFormat': 'timed', 'segments': [{'start': 0, 'end': 2, 'text': 'Welcome to the library.'}], 'questions': ['What place is mentioned?'], 'quizKeys': ['library'], 'answerKeyChecked': True, 'createdAt': '2026-1"
+    },
+    {
+      "id": "IMPORTED_CHECKED_ANSWER_KEY_SYNCED",
+      "pass": true,
+      "detail": "{'id': 'attempt-mwhuarrp-mw1nidurmt', 'itemId': 'audio-mwhuaroe-v1m5a5l1ph', 'title': 'Stage 60 browser test clip', 'day': None, 'questionCount': 1, 'correctQuestions': 1, 'blankQuestions': 0, 'correctMarks': 1, 'totalMarks': 1, 'accuracyPct': 100, 'source': 'Learner-marked checked source', 'keySourceVerified': True, 'adaptiveSynced': True, 'createdAt': '2026-11-15T12:57:40.885Z'}"
+    },
+    {
+      "id": "FULL_DEVICE_BACKUP_INCLUDES_STAGE60_AUDIO_AND_METADATA",
+      "pass": true,
+      "detail": "{'parsed': True, 'hasMeta': True, 'hasBlob': True, 'blobBytes': 44, 'attempts': 4, 'dictations': 1, 'errors': 1}"
+    },
+    {
+      "id": "STAGE60_CLOSE_RESTORES_DESKTOP_FOCUS",
+      "pass": true,
+      "detail": "True"
+    },
+    {
+      "id": "STAGE60_MOBILE_390_NO_OVERFLOW",
+      "pass": true,
+      "detail": "{'width': 390, 'doc': 390, 'body': 390, 'dialog': 390}"
+    },
+    {
+      "id": "STAGE60_CLOSE_RESTORES_MOBILE_FOCUS",
+      "pass": true,
+      "detail": "True"
+    },
+    {
+      "id": "NO_PAGE_JAVASCRIPT_ERRORS",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "id": "NO_CONSOLE_ERRORS",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "id": "ALL_LOCAL_ASSET_REQUESTS_SERVED",
+      "pass": true,
+      "detail": "[]"
+    }
+  ],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "badResponses": [],
+  "limitations": [
+    "No physical Android device, microphone permission, browser speech recognition, public GitHub Pages deployment, or real offline cold-start were available in this build environment.",
+    "Writing and Speaking use learner-entered text and self-reflection; this is not examiner scoring.",
+    "The supplied Barron's material was not copied into the project; the learner enters their own answer-key outcome."
+  ]
+}

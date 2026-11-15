@@ -1,0 +1,117 @@
+{
+  "release": "58.0.0-adaptive-release",
+  "method": "Chromium with exact ZIP build bytes fulfilled through an isolated HTTPS request route; real browser DOM, localStorage and IndexedDB; Service Worker blocked and simulated separately.",
+  "passed": 20,
+  "failed": 0,
+  "total": 20,
+  "checks": [
+    {
+      "id": "BOOT_AND_STAGE58_MODULE_READY",
+      "pass": true,
+      "detail": "{'release': '58.0.0-adaptive-release', 'ready': True, 'modules': [{'id': 'app-data', 'status': 'ready', 'version': '57.0.0'}, {'id': 'legacy-core', 'status': 'ready', 'version': '52.0.0-compat'}, {'id': 'backup-manager', 'status': 'ready', 'version': '55.0.0'}, {'id': 'advanced-studio', 'status': 'ready', 'version': '55.0.0'}, {'id': 'vocabulary-index', 'status': 'registered', 'version': '57.0.0'}, {'id': 'stage58-adaptive', 'status': 'ready', 'version': '58.0.0'}], 'appData': True, 'backup': 'IELTSBoost.FullDeviceBackup'}"
+    },
+    {
+      "id": "STAGE57_RUNTIME_PRESERVED",
+      "pass": true,
+      "detail": "Main navigation, embedded curriculum data and legacy core still present."
+    },
+    {
+      "id": "50_VOCABULARY_CARDS_LOADED",
+      "pass": true,
+      "detail": "{'loaded': True, 'count': 50, 'error': ''}"
+    },
+    {
+      "id": "NO_UNSUPPORTED_BASELINE_INFERENCE",
+      "pass": true,
+      "detail": "[{'skill': 'reading', 'route': 'unassessed'}, {'skill': 'listening', 'route': 'unassessed'}, {'skill': 'writing', 'route': 'unassessed'}, {'skill': 'speaking', 'route': 'unassessed'}]"
+    },
+    {
+      "id": "READING_REPEATED_RAW_EVIDENCE",
+      "pass": true,
+      "detail": "{'skill': 'reading', 'route': 'core', 'score': 75, 'focus': 'Matching headings', 'focusTask': 'Matching headings: har paragrafning asosiy vazifasini 5–8 so‘zda ifoda et; misolni main idea deb qabul qilma.', 'confidence': 'Repeated answer-key evidence · 3 unique attempts', 'reason': '3 ta noyob answer-key natijasi birlashtirildi. Oxirgi tanlangan zaif task: Matching headings. Manbalar: Practice source A; Practice source B; Practice source C. Bu xom aniqlik, IELTS bandi emas.', 'errorCount': 0, 'priority': 2.25}"
+    },
+    {
+      "id": "LISTENING_REPEATED_RAW_EVIDENCE",
+      "pass": true,
+      "detail": "{'skill': 'listening', 'route': 'core', 'score': 60, 'focus': 'Distractors / correction cues', 'focusTask': 'Correction cues: “actually”, “rather”, “sorry”, “instead” kabi tuzatish signallaridan keyin yakuniy javobni tanla.', 'confidence': 'Repeated answer-key evidence · 3 unique attempts', 'reason': '3 ta noyob answer-key natijasi birlashtirildi. Oxirgi tanlangan zaif task: Distractors / correction cues. Manbalar: Listening source A; Listening source B; Listening source C. Bu xom aniqlik, IELTS bandi emas.', 'errorCount': 0, 'priority': 2.25}"
+    },
+    {
+      "id": "WRITING_SAMPLE_AND_CRITERION_GUIDANCE",
+      "pass": true,
+      "detail": "{'skill': 'writing', 'route': 'core', 'score': None, 'focus': 'Coherence & cohesion, Task response, Lexical precision', 'focusTask': 'Coherence repair: paragraph purpose’ni aniqlab, topic sentence → explanation → example → link zanjirini tekshir.', 'weakCriteria': ['Coherence & cohesion', 'Task response', 'Lexical precision'], 'confidence': 'Learner sample + structured self-reflection (not examiner assessed)', 'reason': '138 so‘z · 4/4 kuzatilgan mezon · Fokus: Coherence & cohesion, Task response, Lexical precision · self-review, examiner bahosi emas.', 'errorCount': 0, 'priority': 2.25}"
+    },
+    {
+      "id": "SPEAKING_TRANSCRIPT_NOT_PHONETIC_SCORE",
+      "pass": true,
+      "detail": "{'skill': 'speaking', 'route': 'core', 'score': None, 'focus': 'Lexical resource, Fluency & coherence', 'focusTask': 'Lexical repair: 5 ta foydali iborani kontekstda o‘rgan; ularni majburlamasdan aniq va tabiiy ishlat.', 'weakCriteria': ['Lexical resource', 'Fluency & coherence'], 'confidence': 'Learner sample + structured self-reflection (not examiner assessed)', 'reason': '111 so‘z · 3/4 kuzatilgan mezon · Fokus: Lexical resource, Fluency & coherence · pronunciation audio review yo‘q · self-review, examiner bahosi emas.', 'errorCount': 0, 'priority': 2.25}"
+    },
+    {
+      "id": "ADAPTIVE_PLAN_HAS_SEVEN_TASKS_AND_12_WEEK_PHASES",
+      "pass": true,
+      "detail": "{'days': 7, 'weeks': 4, 'first': 'DAY 1 · REPAIR\\nReading\\n\\nMatching headings: har paragrafning asosiy vazifasini 5–8 so‘zda ifoda et; misolni main idea deb qabul qilma.'}"
+    },
+    {
+      "id": "ADAPTIVE_PLAN_USES_SELECTED_WEAK_TASK",
+      "pass": true,
+      "detail": "DAY 1 · REPAIR\nReading\n\nMatching headings: har paragrafning asosiy vazifasini 5–8 so‘zda ifoda et; misolni main idea deb qabul qilma."
+    },
+    {
+      "id": "VOCAB_CONTEXT_OWN_SENTENCE_AND_SRS",
+      "pass": true,
+      "detail": "{'attempts': 1, 'correct': True, 'status': 'practised', 'due': '2026-11-19', 'lastAnswer': 'citizens', 'revealed': True, 'ownSentence': 'Citizens can improve local services by joining community discussions.', 'naturalChecked': True, 'lastPractised': '2026-11-15', 'lastGrade': 'good'}"
+    },
+    {
+      "id": "PRESSURE_TEST_COUNTS_CONTEXTUAL_ALTERNATIVES",
+      "pass": true,
+      "detail": "{'wordCount': 127, 'found': ['People → citizens', 'Important → essential', 'Good → beneficial', 'Develop → foster', 'Increase (verb) → boost'], 'message': '2–5 ta target concept ishlatilgan. Ularning tabiiy va aniq ekanini o‘zing qayta o‘qi.'}"
+    },
+    {
+      "id": "CROSS_SKILL_TRANSFER_PROGRESS_SAVED",
+      "pass": true,
+      "detail": "{'checks': {'read': True, 'note': True, 'paraphrase': True, 'speak': True, 'transcribe': True, 'correct': True, 'repeat': True}, 'lastSource': 'Original educational article: public transport'}"
+    },
+    {
+      "id": "STAGE58_STATE_INCLUDED_IN_FULL_DEVICE_BACKUP",
+      "pass": true,
+      "detail": "{'format': 'IELTSBoost.FullDeviceBackup', 'parsed': True, 'hasStage58': True, 'keys': ['stage58']}"
+    },
+    {
+      "id": "DESKTOP_CLOSE_RESTORES_FOCUS",
+      "pass": true,
+      "detail": "True"
+    },
+    {
+      "id": "MOBILE_390_NO_HORIZONTAL_OVERFLOW",
+      "pass": true,
+      "detail": "{'width': 390, 'doc': 390, 'body': 390, 'dialog': 390}"
+    },
+    {
+      "id": "MOBILE_CLOSE_RESTORES_FOCUS",
+      "pass": true,
+      "detail": "True"
+    },
+    {
+      "id": "NO_PAGE_JAVASCRIPT_ERRORS",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "id": "NO_CONSOLE_ERRORS",
+      "pass": true,
+      "detail": "[]"
+    },
+    {
+      "id": "ALL_LOCAL_ASSET_REQUESTS_SERVED",
+      "pass": true,
+      "detail": "[]"
+    }
+  ],
+  "pageErrors": [],
+  "consoleErrors": [],
+  "badResponses": [],
+  "limitations": [
+    "No physical Android device, microphone permission, browser speech recognition, public GitHub Pages deployment, or real offline cold-start were available in this build environment.",
+    "Writing and Speaking use learner-entered text and self-reflection; this is not examiner scoring.",
+    "The supplied Barron's material was not copied into the project; the learner enters their own answer-key outcome."
+  ]
+}
