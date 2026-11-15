@@ -1,0 +1,186 @@
+{
+  "release": "59.0.0-precision-scoring",
+  "suite": "Stage 59 deterministic scoring-engine unit tests",
+  "passed": 43,
+  "failed": 0,
+  "total": 43,
+  "results": [
+    {
+      "name": "module exposes Stage 59 API",
+      "status": "PASS"
+    },
+    {
+      "name": "basic answer-key exact matching and score",
+      "status": "PASS"
+    },
+    {
+      "name": "answer comparison is case-insensitive",
+      "status": "PASS"
+    },
+    {
+      "name": "outer punctuation and extra spaces are normalized",
+      "status": "PASS"
+    },
+    {
+      "name": "valid alternative answer variants use double-pipe separator",
+      "status": "PASS"
+    },
+    {
+      "name": "alternative variants do not accept unlisted spelling",
+      "status": "PASS"
+    },
+    {
+      "name": "internal punctuation is not discarded",
+      "status": "PASS"
+    },
+    {
+      "name": "spelling is not autocorrected",
+      "status": "PASS"
+    },
+    {
+      "name": "blank response is wrong and tracked as blank",
+      "status": "PASS"
+    },
+    {
+      "name": "omitted trailing learner responses are padded as blanks",
+      "status": "PASS"
+    },
+    {
+      "name": "too many learner answer rows are rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "empty or blank answer key row is rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "answer key question count is capped at 40",
+      "status": "PASS"
+    },
+    {
+      "name": "custom question marks affect weighted raw score",
+      "status": "PASS"
+    },
+    {
+      "name": "marks default to one per question",
+      "status": "PASS"
+    },
+    {
+      "name": "marks count mismatch is rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "marks must be whole numbers 1 through 4",
+      "status": "PASS"
+    },
+    {
+      "name": "unordered multi-selection can ignore order when requested",
+      "status": "PASS"
+    },
+    {
+      "name": "multi-selection remains order-sensitive by default",
+      "status": "PASS"
+    },
+    {
+      "name": "full-width text is Unicode-normalized",
+      "status": "PASS"
+    },
+    {
+      "name": "multiple marks show question and mark counts separately",
+      "status": "PASS"
+    },
+    {
+      "name": "correct mark percentage is rounded to two decimals",
+      "status": "PASS"
+    },
+    {
+      "name": "writing Task 1 requires a real response and records 150-word target",
+      "status": "PASS"
+    },
+    {
+      "name": "writing below 150 words is flagged but not mathematically penalized",
+      "status": "PASS"
+    },
+    {
+      "name": "Task 2 target is 250 words and remains advisory",
+      "status": "PASS"
+    },
+    {
+      "name": "writing text minimum prevents blank/no-evidence review",
+      "status": "PASS"
+    },
+    {
+      "name": "four criterion ratings are equally averaged",
+      "status": "PASS"
+    },
+    {
+      "name": "criterion ratings accept half-band steps",
+      "status": "PASS"
+    },
+    {
+      "name": "criterion ratings reject quarter-band increments",
+      "status": "PASS"
+    },
+    {
+      "name": "all four criteria are required",
+      "status": "PASS"
+    },
+    {
+      "name": "every criterion needs a specific evidence note",
+      "status": "PASS"
+    },
+    {
+      "name": "feedback source is validated per criterion",
+      "status": "PASS"
+    },
+    {
+      "name": "self-review source is explicitly labelled as unverified",
+      "status": "PASS"
+    },
+    {
+      "name": "outside feedback sources are labelled reported but not authenticated",
+      "status": "PASS"
+    },
+    {
+      "name": "speaking cannot be scored without a saved audio ID",
+      "status": "PASS"
+    },
+    {
+      "name": "speaking cannot use transcript as substitute for replay confirmation",
+      "status": "PASS"
+    },
+    {
+      "name": "speaking score requires actual audio ID and review attestation",
+      "status": "PASS"
+    },
+    {
+      "name": "Task 1 plus twice Task 2 weighting is calculated correctly",
+      "status": "PASS"
+    },
+    {
+      "name": "writing combined index refuses a missing task score",
+      "status": "PASS"
+    },
+    {
+      "name": "writing combined index refuses non-numeric task score",
+      "status": "PASS"
+    },
+    {
+      "name": "descriptor guides exist for Writing Task 1, Task 2 and Speaking",
+      "status": "PASS"
+    },
+    {
+      "name": "legacy Stage 58 score data remains a separate record format",
+      "status": "PASS"
+    },
+    {
+      "name": "Stage 58 accuracy adapter receives 0–1 ratio for new raw results",
+      "status": "PASS"
+    }
+  ],
+  "limitations": [
+    "Answer-key source is user-declared and is not authenticated by the offline app.",
+    "Writing and Speaking criterion ratings are human-entered formative reviews, not automatic examiner grades.",
+    "The app does not convert raw Reading/Listening marks to a generic band because test-version conversions can vary."
+  ]
+}

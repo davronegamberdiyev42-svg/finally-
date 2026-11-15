@@ -1,0 +1,35 @@
+{
+  "release": "58.0.0-adaptive-release",
+  "suite": "Static QA and Stage57 diff-protection",
+  "passed": 5,
+  "failed": 0,
+  "total": 5,
+  "checks": [
+    {
+      "name": "non-destructive-diff-vs-stage57",
+      "status": "PASS",
+      "detail": "15 allowed existing files changed; 20 Stage58 files added; protected core data/legacy standalone preserved"
+    },
+    {
+      "name": "preserved-curriculum-and-content-volume",
+      "status": "PASS",
+      "detail": "84 days; 840 Reading + 420 Listening questions; all 4 skills/day; 672 daily words; 864 patterns; 61 articles; 336 skill resources; 84 audio companions; 84 MP3 files"
+    },
+    {
+      "name": "pdf-derived-vocabulary-50-integrity",
+      "status": "PASS",
+      "detail": "50/50 source headwords, continuous IDs, 3 contextual options, one keyed best answer, explanation and learner hint each"
+    },
+    {
+      "name": "main-app-pwa-and-release-integration",
+      "status": "PASS",
+      "detail": "main app boot, lazy module, Stage58 stylesheet/data, release-check and PWA relative scope connected"
+    },
+    {
+      "name": "javascript-and-python-syntax",
+      "status": "PASS",
+      "detail": "7 JS/Python syntax checks passed"
+    }
+  ],
+  "note": "Baseline archive comparison verifies protected legacy content; local files and JSON manifests are checked without changing Stage57 historical evidence."
+}

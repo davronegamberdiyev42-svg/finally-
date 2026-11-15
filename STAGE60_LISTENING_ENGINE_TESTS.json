@@ -1,0 +1,104 @@
+{
+  "release": "60.0.0-real-listening",
+  "suite": "Stage 60 listening engine/unit tests",
+  "passed": 19,
+  "failed": 0,
+  "total": 19,
+  "tests": [
+    {
+      "id": "api-version",
+      "pass": true,
+      "detail": "60.0.0"
+    },
+    {
+      "id": "four-parts-and-40-question-spec",
+      "pass": true,
+      "detail": "4 parts; official format metadata available"
+    },
+    {
+      "id": "84-built-in-daily-audio-items",
+      "pass": true,
+      "detail": "84 tracks"
+    },
+    {
+      "id": "84-audio-links-point-to-local-mp3s",
+      "pass": true,
+      "detail": "all daily tracks point to existing local MP3 path"
+    },
+    {
+      "id": "420-original-script-questions-linked",
+      "pass": true,
+      "detail": "420 questions, 5 per day"
+    },
+    {
+      "id": "transcripts-are-original-script-data",
+      "pass": true,
+      "detail": "84 scripts; average 2859 chars"
+    },
+    {
+      "id": "vtt-timed-transcript-parser",
+      "pass": true,
+      "detail": "2 timed cues"
+    },
+    {
+      "id": "srt-comma-timestamp-parser",
+      "pass": true,
+      "detail": "SRT millisecond comma parsed"
+    },
+    {
+      "id": "json-timed-transcript-parser",
+      "pass": true,
+      "detail": "JSON segments parsed"
+    },
+    {
+      "id": "plain-transcript-fallback",
+      "pass": true,
+      "detail": "plain text retained"
+    },
+    {
+      "id": "invalid-json-is-rejected",
+      "pass": true,
+      "detail": "invalid JSON rejected"
+    },
+    {
+      "id": "empty-timed-json-is-rejected",
+      "pass": true,
+      "detail": "empty segment set rejected"
+    },
+    {
+      "id": "oversized-transcript-is-rejected",
+      "pass": true,
+      "detail": "220k character cap enforced"
+    },
+    {
+      "id": "word-error-rate-perfect",
+      "pass": true,
+      "detail": "0 edits, 100% token similarity"
+    },
+    {
+      "id": "word-error-rate-replacement-and-insertion",
+      "pass": true,
+      "detail": "2 word edits"
+    },
+    {
+      "id": "empty-reference-has-no-fake-accuracy",
+      "pass": true,
+      "detail": "undefined ratio for empty reference"
+    },
+    {
+      "id": "resource-hub-has-official-spec-and-natural-sources",
+      "pass": true,
+      "detail": "ielts-format, bc-audio-zone, bc-listening, common-voice, ielts-samples"
+    },
+    {
+      "id": "accent-labels-do-not-infer-unverified-accent",
+      "pass": true,
+      "detail": "daily tracks explicitly labelled synthetic voice"
+    },
+    {
+      "id": "built-in-source-is-not-mislabelled-ielts-official",
+      "pass": true,
+      "detail": "source provenance preserved"
+    }
+  ]
+}

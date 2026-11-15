@@ -1,0 +1,89 @@
+{
+  "release": "59.0.0-precision-scoring",
+  "passed": 16,
+  "failed": 0,
+  "total": 16,
+  "checks": [
+    {
+      "id": "release-files-present",
+      "pass": true,
+      "detail": "16 required files exist"
+    },
+    {
+      "id": "service-worker-shell-paths-exist",
+      "pass": true,
+      "detail": "31 shell paths resolved"
+    },
+    {
+      "id": "entrypoint-stage59-css-and-engine-hook",
+      "pass": true,
+      "detail": "index links the Stage 59 stylesheet and module boot"
+    },
+    {
+      "id": "manifest-stage59-identity",
+      "pass": true,
+      "detail": "IELTS Boost — Stage 59 Precision Scoring"
+    },
+    {
+      "id": "cache-release-version-coherent",
+      "pass": true,
+      "detail": "Stage 59 cache namespace and release version present"
+    },
+    {
+      "id": "entrypoint-local-assets-resolve",
+      "pass": true,
+      "detail": "12 local script/link/image refs resolve"
+    },
+    {
+      "id": "stage58-all-files-retained",
+      "pass": true,
+      "detail": "All baseline files remain"
+    },
+    {
+      "id": "only-approved-runtime-files-modified",
+      "pass": true,
+      "detail": "['assets/js/core/boot.js', 'assets/js/core/contract.js', 'assets/js/core/module-registry.js', 'assets/js/modules/advanced-studio.js', 'assets/js/release-check.js', 'assets/js/stages/stage58-adaptive.js', 'index.html', 'manifest.webmanifest', 'release-check.html', 'sw.js']"
+    },
+    {
+      "id": "stage59-runtime-only-additions-bounded",
+      "pass": true,
+      "detail": "['assets/css/stage59-scoring.css', 'assets/js/stages/stage59-scoring-engine.js']"
+    },
+    {
+      "id": "curriculum-and-legacy-core-byte-identical",
+      "pass": true,
+      "detail": "['data/app-data.json', 'data/vocabulary-index.json', 'data/stage58-vocabulary.json', 'assets/css/stage58.css', 'assets/js/stage40-50.js', 'assets/js/compat/legacy-core.js', 'assets/js/modules/backup-manager.js', 'standalone.html']"
+    },
+    {
+      "id": "stage58-historical-browser-report-preserved",
+      "pass": true,
+      "detail": "docs/BROWSER_RUNTIME_58_0.json"
+    },
+    {
+      "id": "raw-score-never-generic-band-converted",
+      "pass": true,
+      "detail": "raw marks and accuracy only; no fixed conversion lookup"
+    },
+    {
+      "id": "writing-task2-double-weight-formula",
+      "pass": true,
+      "detail": "Task 2 weight is twice Task 1"
+    },
+    {
+      "id": "four-criteria-evidence-per-task",
+      "pass": true,
+      "detail": "each rubric requires four criterion observations"
+    },
+    {
+      "id": "speaking-requires-replayed-saved-audio",
+      "pass": true,
+      "detail": "transcript alone is not pronunciation evidence"
+    },
+    {
+      "id": "self-and-external-source-caveat",
+      "pass": true,
+      "detail": "source declarations are not authenticated"
+    }
+  ],
+  "method": "Static inspection and SHA-256 comparison against the exact extracted Stage 58 base. No public deploy is implied."
+}

@@ -1,0 +1,109 @@
+{
+  "release": "60.0.0-real-listening",
+  "passed": 20,
+  "failed": 0,
+  "total": 20,
+  "checks": [
+    {
+      "id": "release-files-present",
+      "pass": true,
+      "detail": "19 release files exist"
+    },
+    {
+      "id": "service-worker-shell-paths-exist",
+      "pass": true,
+      "detail": "33 shell paths resolved"
+    },
+    {
+      "id": "entrypoint-stage60-css",
+      "pass": true,
+      "detail": "Stage 60 CSS and module boot linked"
+    },
+    {
+      "id": "no-stale-stage59-entry-labels",
+      "pass": true,
+      "detail": "Boot status/footer identify current Stage 60 release"
+    },
+    {
+      "id": "manifest-stage60-identity",
+      "pass": true,
+      "detail": "IELTS Boost — Stage 60 Real Listening Hub"
+    },
+    {
+      "id": "cache-release-version-coherent",
+      "pass": true,
+      "detail": "Stage 60 cache namespace and release version present"
+    },
+    {
+      "id": "entrypoint-local-assets-resolve",
+      "pass": true,
+      "detail": "13 local assets resolve"
+    },
+    {
+      "id": "stage59-all-files-retained",
+      "pass": true,
+      "detail": "Every Stage59 baseline file retained"
+    },
+    {
+      "id": "only-approved-runtime-files-modified",
+      "pass": true,
+      "detail": "['assets/js/core/boot.js', 'assets/js/core/contract.js', 'assets/js/core/module-registry.js', 'assets/js/modules/advanced-studio.js', 'assets/js/release-check.js', 'index.html', 'manifest.webmanifest', 'release-check.html', 'sw.js']"
+    },
+    {
+      "id": "stage60-additions-bounded",
+      "pass": true,
+      "detail": "['assets/css/stage60-listening.css', 'assets/js/stages/stage60-listening-hub.js']"
+    },
+    {
+      "id": "curriculum-and-prior-stages-byte-identical",
+      "pass": true,
+      "detail": "['data/app-data.json', 'data/vocabulary-index.json', 'data/stage58-vocabulary.json', 'assets/css/stage58.css', 'assets/js/stage40-50.js', 'assets/js/compat/legacy-core.js', 'assets/js/modules/backup-manager.js', 'assets/js/stages/stage58-adaptive.js', 'assets/js/stages/stage59-scoring-engine.js', 'assets/css/stage59-scoring.css', 'standalone.html']"
+    },
+    {
+      "id": "all-84-mp3-assets-unchanged",
+      "pass": true,
+      "detail": "All original Stage57/59 files preserved exactly"
+    },
+    {
+      "id": "stage59-historical-browser-report-preserved",
+      "pass": true,
+      "detail": "docs/BROWSER_RUNTIME_59_0.json"
+    },
+    {
+      "id": "stage59-historical-service-worker-report-preserved",
+      "pass": true,
+      "detail": "docs/SERVICE_WORKER_SIM_59_0.json"
+    },
+    {
+      "id": "stage60-browser-and-worker-reports-distinct",
+      "pass": true,
+      "detail": "Current release uses separate Stage 60 report filenames"
+    },
+    {
+      "id": "84-track-420-question-bank",
+      "pass": true,
+      "detail": "84 daily packs / 84 audio paths / 420 questions"
+    },
+    {
+      "id": "strict-mode-transcript-hidden",
+      "pass": true,
+      "detail": "Strict one-play playback prevents premature transcript reveal"
+    },
+    {
+      "id": "private-local-storage-and-shared-backup",
+      "pass": true,
+      "detail": "Stage60 metadata extension + Stage55 binary store"
+    },
+    {
+      "id": "natural-audio-links-not-bundled",
+      "pass": true,
+      "detail": "Natural source links open externally; no provider audio copied"
+    },
+    {
+      "id": "no-wer-as-ielts-pronunciation-score",
+      "pass": true,
+      "detail": "WER is accurately described as text-level comparison only"
+    }
+  ],
+  "method": "Static inspection and SHA-256 comparison against exact Stage 59 release ZIP. Public deployment and physical-device acceptance are not implied."
+}
