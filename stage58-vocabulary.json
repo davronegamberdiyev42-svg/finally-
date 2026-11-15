@@ -1,0 +1,1398 @@
+{
+  "schemaVersion": 2,
+  "count": 50,
+  "source": "User-supplied PDF: 50 Synonyms That Actually Boost Your Score",
+  "method": "Choose a starting five; learn distinctions in context; write original sentences; pressure-test 2–5 target expressions; add words gradually. Alternatives are contextual, not interchangeable.",
+  "learningCycle": [
+    "Choose five expressions that feel useful.",
+    "Study their meaning and register in context.",
+    "Practise them in different topic areas.",
+    "Use 2–5 selected expressions in a short timed paragraph.",
+    "Check naturalness and meaning; add five more only after the first set is secure."
+  ],
+  "items": [
+    {
+      "id": 1,
+      "headword": "People",
+      "category": "Society & citizenship",
+      "alternatives": [
+        {
+          "term": "individuals",
+          "nuance": "Refers to people one by one; useful when focusing on personal responsibility."
+        },
+        {
+          "term": "the public",
+          "nuance": "Refers to people collectively, especially as an audience or community."
+        },
+        {
+          "term": "citizens",
+          "nuance": "People who legally belong to a country and have civic rights or duties."
+        }
+      ],
+      "prompt": "Only eligible ___ may vote in the national election.",
+      "choices": [
+        "individuals",
+        "the public",
+        "citizens"
+      ],
+      "best": "citizens",
+      "explanation": "Citizens is the precise choice because voting eligibility is linked to legal membership of a country. Residents may live there without being citizens; the public is collective.",
+      "uzbek_hint": "fuqarolar",
+      "warning": "Do not replace people with citizens unless citizenship is relevant."
+    },
+    {
+      "id": 2,
+      "headword": "Important",
+      "category": "Academic emphasis",
+      "alternatives": [
+        {
+          "term": "crucial",
+          "nuance": "Emphasises that something has a decisive effect on the outcome."
+        },
+        {
+          "term": "vital",
+          "nuance": "Emphasises that something is extremely important for success or survival."
+        },
+        {
+          "term": "essential",
+          "nuance": "Means that something is necessary; without it, the task may not work."
+        }
+      ],
+      "prompt": "Accurate records are ___ for comparing the results of the two surveys.",
+      "choices": [
+        "crucial",
+        "vital",
+        "essential"
+      ],
+      "best": "essential",
+      "explanation": "Essential is the clearest choice when the records are a necessary condition for a valid comparison. Crucial and vital emphasise importance more generally.",
+      "uzbek_hint": "muhim / zarur",
+      "warning": "These alternatives overlap; choose according to the exact meaning, not to sound more advanced."
+    },
+    {
+      "id": 3,
+      "headword": "Good",
+      "category": "Benefits & outcomes",
+      "alternatives": [
+        {
+          "term": "beneficial",
+          "nuance": "Describes something that produces an advantage or helpful result."
+        },
+        {
+          "term": "positive",
+          "nuance": "A broad word for a favourable result, attitude or effect."
+        },
+        {
+          "term": "favourable",
+          "nuance": "Often describes conditions, responses or circumstances that support success."
+        }
+      ],
+      "prompt": "The new reading programme had a ___ effect on learners’ vocabulary.",
+      "choices": [
+        "positive",
+        "beneficial",
+        "favourable"
+      ],
+      "best": "beneficial",
+      "explanation": "Beneficial collocates naturally with an effect when that effect helps learners. Positive is broader; favourable is often used for conditions or circumstances.",
+      "uzbek_hint": "foydali",
+      "warning": ""
+    },
+    {
+      "id": 4,
+      "headword": "Develop",
+      "category": "Growth & planning",
+      "alternatives": [
+        {
+          "term": "cultivate",
+          "nuance": "To develop something gradually through care and practice, such as a habit or skill."
+        },
+        {
+          "term": "foster",
+          "nuance": "To encourage the growth of an attitude, relationship or ability."
+        },
+        {
+          "term": "establish",
+          "nuance": "To create or set up something so that it exists in a stable form."
+        }
+      ],
+      "prompt": "Schools can ___ a habit of independent reading by giving pupils regular choice.",
+      "choices": [
+        "establish",
+        "cultivate",
+        "foster"
+      ],
+      "best": "cultivate",
+      "explanation": "Cultivate is especially precise for gradually developing a habit. Foster usually means encourage its growth; establish focuses on setting it up.",
+      "uzbek_hint": "rivojlantirmoq",
+      "warning": "Cultivate, foster and establish are not interchangeable in every sentence."
+    },
+    {
+      "id": 5,
+      "headword": "Increase (verb)",
+      "category": "Data & trends",
+      "alternatives": [
+        {
+          "term": "boost",
+          "nuance": "To raise something noticeably; common with productivity, confidence, sales or investment."
+        },
+        {
+          "term": "raise",
+          "nuance": "To make a level, amount or figure higher; often used with prices, funds or standards."
+        }
+      ],
+      "prompt": "The council plans to ___ the annual grant for public libraries.",
+      "choices": [
+        "boost",
+        "raise",
+        "increase"
+      ],
+      "best": "raise",
+      "explanation": "Raise is a neutral verb for making a specific sum of money higher. Boost is more emphatic and suggests a noticeable improvement.",
+      "uzbek_hint": "oshirmoq",
+      "warning": ""
+    },
+    {
+      "id": 6,
+      "headword": "Government",
+      "category": "Politics & public policy",
+      "alternatives": [
+        {
+          "term": "the authorities",
+          "nuance": "Officials or organisations responsible for enforcing rules or managing public matters."
+        },
+        {
+          "term": "the state",
+          "nuance": "The government and public institutions of a country considered as one system."
+        },
+        {
+          "term": "policymakers",
+          "nuance": "People who design or decide policies; focuses on decision-makers."
+        }
+      ],
+      "prompt": "___ are reviewing the safety rules before the new railway opens.",
+      "choices": [
+        "the state",
+        "policymakers",
+        "the authorities"
+      ],
+      "best": "the authorities",
+      "explanation": "The authorities fits officials reviewing and enforcing safety rules. Policymakers focuses on policy design; the state refers to the national system.",
+      "uzbek_hint": "hukumat / vakolatli organlar",
+      "warning": "Choose the group that actually performs the action."
+    },
+    {
+      "id": 7,
+      "headword": "Society",
+      "category": "Social change",
+      "alternatives": [
+        {
+          "term": "the community",
+          "nuance": "A group connected by location, shared interests or local relationships."
+        },
+        {
+          "term": "the general populace",
+          "nuance": "The population as a whole; formal and broad."
+        },
+        {
+          "term": "civilisation",
+          "nuance": "A large, historically developed human society with institutions and culture."
+        }
+      ],
+      "prompt": "The invention transformed trade and communication across an entire ___ over centuries.",
+      "choices": [
+        "community",
+        "civilisation",
+        "general populace"
+      ],
+      "best": "civilisation",
+      "explanation": "Civilisation is the broad historical concept that fits long-term changes across institutions and culture. Community is usually more local or connected.",
+      "uzbek_hint": "jamiyat / sivilizatsiya",
+      "warning": ""
+    },
+    {
+      "id": 8,
+      "headword": "Technology",
+      "category": "Innovation & digital tools",
+      "alternatives": [
+        {
+          "term": "innovation",
+          "nuance": "A new idea, method or product, or the process of introducing it."
+        },
+        {
+          "term": "digital tools",
+          "nuance": "Specific software, devices or online applications used to do a task."
+        },
+        {
+          "term": "technological progress",
+          "nuance": "The broader development of technology over time."
+        }
+      ],
+      "prompt": "Teachers used online platforms and other ___ to share assignments with learners.",
+      "choices": [
+        "innovation",
+        "digital tools",
+        "technological progress"
+      ],
+      "best": "digital tools",
+      "explanation": "Digital tools refers to the actual platforms and applications used. Innovation is a new idea or solution; technological progress is the wider trend.",
+      "uzbek_hint": "texnologiya / raqamli vositalar",
+      "warning": ""
+    },
+    {
+      "id": 9,
+      "headword": "Environment",
+      "category": "Nature & ecology",
+      "alternatives": [
+        {
+          "term": "the natural world",
+          "nuance": "Nature in general, including living things and landscapes."
+        },
+        {
+          "term": "ecosystems",
+          "nuance": "Connected communities of organisms and their physical surroundings."
+        },
+        {
+          "term": "the planet",
+          "nuance": "The Earth considered as a whole, often in global environmental discussion."
+        }
+      ],
+      "prompt": "Wetlands are complex ___ in which plants, animals and water interact.",
+      "choices": [
+        "the natural world",
+        "ecosystems",
+        "the planet"
+      ],
+      "best": "ecosystems",
+      "explanation": "Ecosystems is the scientific term for connected living organisms and their surroundings. The other choices are broader.",
+      "uzbek_hint": "atrof-muhit / ekotizim",
+      "warning": ""
+    },
+    {
+      "id": 10,
+      "headword": "Children",
+      "category": "Age groups & education",
+      "alternatives": [
+        {
+          "term": "youngsters",
+          "nuance": "An informal but acceptable general term for young people."
+        },
+        {
+          "term": "young people",
+          "nuance": "A neutral expression; often safer when the age range is broad."
+        },
+        {
+          "term": "minors",
+          "nuance": "A legal term for people below the age of legal adulthood."
+        }
+      ],
+      "prompt": "The law requires parental consent before ___ can sign this contract.",
+      "choices": [
+        "youngsters",
+        "young people",
+        "minors"
+      ],
+      "best": "minors",
+      "explanation": "Minors is the precise legal term in a contract context. Youngsters and young people are ordinary social descriptions.",
+      "uzbek_hint": "bolalar / voyaga yetmaganlar",
+      "warning": "Minors is legal terminology, not a universal replacement for children."
+    },
+    {
+      "id": 11,
+      "headword": "Students",
+      "category": "Education",
+      "alternatives": [
+        {
+          "term": "learners",
+          "nuance": "People engaged in learning; works across formal and informal education."
+        },
+        {
+          "term": "pupils",
+          "nuance": "Usually children who attend school, especially primary or secondary school."
+        },
+        {
+          "term": "scholars",
+          "nuance": "People engaged in advanced academic study or research; not a general term for all students."
+        }
+      ],
+      "prompt": "The university offers flexible evening courses for adult ___ returning to education.",
+      "choices": [
+        "pupils",
+        "learners",
+        "scholars"
+      ],
+      "best": "learners",
+      "explanation": "Learners includes adults returning to study. Pupils normally refers to school-age children; scholars often implies advanced academic work.",
+      "uzbek_hint": "o‘quvchilar / ta’lim oluvchilar",
+      "warning": ""
+    },
+    {
+      "id": 12,
+      "headword": "Improve",
+      "category": "Quality & refinement",
+      "alternatives": [
+        {
+          "term": "enhance",
+          "nuance": "To increase or improve the quality, value or effectiveness of something."
+        },
+        {
+          "term": "ameliorate",
+          "nuance": "To make a difficult or negative situation better; formal."
+        },
+        {
+          "term": "refine",
+          "nuance": "To improve something by making careful, often small adjustments."
+        }
+      ],
+      "prompt": "The editor made small changes to ___ the wording and remove ambiguity.",
+      "choices": [
+        "ameliorate",
+        "enhance",
+        "refine"
+      ],
+      "best": "refine",
+      "explanation": "Refine fits careful changes to wording. Enhance improves quality more generally; ameliorate is more often used for a problem or poor condition.",
+      "uzbek_hint": "yaxshilamoq / sayqallamoq",
+      "warning": ""
+    },
+    {
+      "id": 13,
+      "headword": "Effective",
+      "category": "Results & solutions",
+      "alternatives": [
+        {
+          "term": "productive",
+          "nuance": "Producing useful work, progress or results."
+        },
+        {
+          "term": "potent",
+          "nuance": "Powerful or strong in effect; often used for forces, substances or deterrents."
+        },
+        {
+          "term": "successful",
+          "nuance": "Achieving the intended result."
+        }
+      ],
+      "prompt": "The pilot scheme was ___: waiting times fell by half within three months.",
+      "choices": [
+        "potent",
+        "successful",
+        "productive"
+      ],
+      "best": "successful",
+      "explanation": "Successful directly describes a scheme that achieved its intended result. Productive focuses on output; potent means powerful in effect.",
+      "uzbek_hint": "samarali",
+      "warning": ""
+    },
+    {
+      "id": 14,
+      "headword": "Necessary",
+      "category": "Requirements",
+      "alternatives": [
+        {
+          "term": "essential",
+          "nuance": "Absolutely needed as a basic requirement."
+        },
+        {
+          "term": "imperative",
+          "nuance": "Urgently necessary; formal and emphatic."
+        }
+      ],
+      "prompt": "It is ___ that every applicant submit proof of identity before registration.",
+      "choices": [
+        "essential",
+        "imperative",
+        "necessary"
+      ],
+      "best": "imperative",
+      "explanation": "Imperative is especially strong in the formal structure “It is imperative that…”. Essential is also natural, but less urgent in tone.",
+      "uzbek_hint": "zarur / shart",
+      "warning": ""
+    },
+    {
+      "id": 15,
+      "headword": "Different",
+      "category": "Comparison",
+      "alternatives": [
+        {
+          "term": "various",
+          "nuance": "Several different types or examples; neutral and common."
+        },
+        {
+          "term": "diverse",
+          "nuance": "Showing considerable variety or a mixture of distinct groups or types."
+        }
+      ],
+      "prompt": "The report compares ___ methods used by three universities.",
+      "choices": [
+        "various",
+        "diverse",
+        "different"
+      ],
+      "best": "various",
+      "explanation": "Various is a neutral way to introduce several methods. Diverse would emphasise that the methods are markedly varied in character.",
+      "uzbek_hint": "turli / xilma-xil",
+      "warning": ""
+    },
+    {
+      "id": 16,
+      "headword": "Work (noun)",
+      "category": "Employment & careers",
+      "alternatives": [
+        {
+          "term": "employment",
+          "nuance": "Paid work or the state of having a job."
+        },
+        {
+          "term": "a career",
+          "nuance": "A longer-term professional journey, often involving progression."
+        },
+        {
+          "term": "a profession",
+          "nuance": "A type of occupation that often requires specialist training or qualifications."
+        }
+      ],
+      "prompt": "After graduation, she hopes to find full-time ___ in healthcare.",
+      "choices": [
+        "a career",
+        "employment",
+        "a profession"
+      ],
+      "best": "employment",
+      "explanation": "Employment is the most direct word for finding paid work. A career is the longer-term path; a profession is the specialised field.",
+      "uzbek_hint": "ish / bandlik",
+      "warning": ""
+    },
+    {
+      "id": 17,
+      "headword": "Companies",
+      "category": "Business",
+      "alternatives": [
+        {
+          "term": "corporations",
+          "nuance": "Usually large legally incorporated companies."
+        },
+        {
+          "term": "businesses",
+          "nuance": "A broad term for commercial organisations of any size."
+        }
+      ],
+      "prompt": "Small family-owned ___ often depend on repeat customers.",
+      "choices": [
+        "corporations",
+        "businesses",
+        "companies"
+      ],
+      "best": "businesses",
+      "explanation": "Businesses covers organisations of any size. Corporations normally suggests larger formal entities.",
+      "uzbek_hint": "kompaniyalar / bizneslar",
+      "warning": ""
+    },
+    {
+      "id": 18,
+      "headword": "Individual (noun)",
+      "category": "People & rights",
+      "alternatives": [
+        {
+          "term": "person",
+          "nuance": "A neutral word for one human being."
+        },
+        {
+          "term": "citizen",
+          "nuance": "A person considered in relation to legal membership and civic rights in a country."
+        }
+      ],
+      "prompt": "The policy must protect the rights of each ___, regardless of background.",
+      "choices": [
+        "citizen",
+        "person",
+        "individual"
+      ],
+      "best": "person",
+      "explanation": "Person is neutral and does not imply citizenship. Citizen would be appropriate only if legal membership of a country matters.",
+      "uzbek_hint": "shaxs / inson",
+      "warning": ""
+    },
+    {
+      "id": 19,
+      "headword": "Global",
+      "category": "International issues",
+      "alternatives": [
+        {
+          "term": "worldwide",
+          "nuance": "Extending throughout the world."
+        },
+        {
+          "term": "international",
+          "nuance": "Involving or relating to two or more countries."
+        },
+        {
+          "term": "universal",
+          "nuance": "Applying to everyone or everything, rather than simply occurring worldwide."
+        }
+      ],
+      "prompt": "The research team compared results from 12 countries to identify ___ patterns.",
+      "choices": [
+        "worldwide",
+        "international",
+        "universal"
+      ],
+      "best": "international",
+      "explanation": "International is precise because the work compares multiple countries. Worldwide means global in reach; universal means applying generally to all.",
+      "uzbek_hint": "global / xalqaro",
+      "warning": ""
+    },
+    {
+      "id": 20,
+      "headword": "Modern",
+      "category": "Present & past",
+      "alternatives": [
+        {
+          "term": "contemporary",
+          "nuance": "Belonging to the present period; often used in cultural or academic contexts."
+        },
+        {
+          "term": "present-day",
+          "nuance": "A clear, plain expression meaning existing now."
+        }
+      ],
+      "prompt": "The exhibition explores ___ art created by artists working today.",
+      "choices": [
+        "present-day",
+        "contemporary",
+        "modern"
+      ],
+      "best": "contemporary",
+      "explanation": "Contemporary is natural in an art context and refers to art of the current period. Present-day is a clear, less specialised alternative.",
+      "uzbek_hint": "zamonaviy",
+      "warning": ""
+    },
+    {
+      "id": 21,
+      "headword": "Many",
+      "category": "Quantity",
+      "alternatives": [
+        {
+          "term": "numerous",
+          "nuance": "A large number of countable items or people; formal."
+        },
+        {
+          "term": "a large number of",
+          "nuance": "A clear phrase for a high quantity of countable things."
+        }
+      ],
+      "prompt": "___ households in the survey reported using public transport every day.",
+      "choices": [
+        "Numerous",
+        "A large number of",
+        "Many"
+      ],
+      "best": "Numerous",
+      "explanation": "Numerous works directly before a plural countable noun. A large number of is also correct but longer; the best choice here is concise.",
+      "uzbek_hint": "ko‘p / juda ko‘p",
+      "warning": ""
+    },
+    {
+      "id": 22,
+      "headword": "Help (verb)",
+      "category": "Support & assistance",
+      "alternatives": [
+        {
+          "term": "assist",
+          "nuance": "To help someone with a task; slightly formal."
+        },
+        {
+          "term": "aid",
+          "nuance": "To help or support a process, often in a formal register."
+        },
+        {
+          "term": "support",
+          "nuance": "To provide ongoing help, encouragement or resources."
+        }
+      ],
+      "prompt": "The new software will ___ researchers in organising large datasets.",
+      "choices": [
+        "assist",
+        "aid",
+        "support"
+      ],
+      "best": "assist",
+      "explanation": "Assist someone in doing a task is a natural formal pattern. Support often suggests broader or continuing help; aid can sound more institutional.",
+      "uzbek_hint": "yordam bermoq",
+      "warning": ""
+    },
+    {
+      "id": 23,
+      "headword": "Provide",
+      "category": "Supplying services",
+      "alternatives": [
+        {
+          "term": "supply",
+          "nuance": "To provide something needed, such as goods, materials or resources."
+        },
+        {
+          "term": "offer",
+          "nuance": "To make a service or opportunity available."
+        },
+        {
+          "term": "furnish",
+          "nuance": "A formal verb meaning to provide or equip; less common in everyday IELTS writing."
+        }
+      ],
+      "prompt": "The clinic will ___ free vaccinations to residents during the health campaign.",
+      "choices": [
+        "supply",
+        "offer",
+        "furnish"
+      ],
+      "best": "offer",
+      "explanation": "Offer is natural for a service made available to people. Supply is common for goods or materials; furnish is more formal and less common.",
+      "uzbek_hint": "taqdim etmoq / bermoq",
+      "warning": ""
+    },
+    {
+      "id": 24,
+      "headword": "Believe",
+      "category": "Arguments & opinions",
+      "alternatives": [
+        {
+          "term": "argue",
+          "nuance": "To present a position supported by reasons or evidence."
+        },
+        {
+          "term": "contend",
+          "nuance": "To state or maintain an argument; formal."
+        }
+      ],
+      "prompt": "Several researchers ___ that early support can reduce educational inequality.",
+      "choices": [
+        "argue",
+        "contend",
+        "believe"
+      ],
+      "best": "argue",
+      "explanation": "Argue highlights a position supported by reasons. Contend is a more formal alternative; believe is a statement of opinion without necessarily presenting reasons.",
+      "uzbek_hint": "fikr bildirmoq / da’vo qilmoq",
+      "warning": ""
+    },
+    {
+      "id": 25,
+      "headword": "Create",
+      "category": "Production & outcomes",
+      "alternatives": [
+        {
+          "term": "generate",
+          "nuance": "To produce something, especially jobs, income, energy, ideas or data."
+        },
+        {
+          "term": "establish",
+          "nuance": "To set up a programme, organisation or system so it can operate."
+        }
+      ],
+      "prompt": "The new transport project is expected to ___ hundreds of local jobs.",
+      "choices": [
+        "establish",
+        "generate",
+        "create"
+      ],
+      "best": "generate",
+      "explanation": "Generate collocates naturally with jobs. Establish is used for setting up a programme, organisation or system.",
+      "uzbek_hint": "yaratmoq / hosil qilmoq",
+      "warning": ""
+    },
+    {
+      "id": 26,
+      "headword": "Education",
+      "category": "Learning & schooling",
+      "alternatives": [
+        {
+          "term": "schooling",
+          "nuance": "Formal teaching received at school."
+        },
+        {
+          "term": "learning",
+          "nuance": "The broader process of gaining knowledge or ability, inside or outside school."
+        }
+      ],
+      "prompt": "Lifelong ___ can continue through work, travel and independent study.",
+      "choices": [
+        "schooling",
+        "learning",
+        "education"
+      ],
+      "best": "learning",
+      "explanation": "Learning includes informal and self-directed development. Schooling is more specifically formal education in schools.",
+      "uzbek_hint": "ta’lim / o‘rganish",
+      "warning": ""
+    },
+    {
+      "id": 27,
+      "headword": "Health",
+      "category": "Well-being & care",
+      "alternatives": [
+        {
+          "term": "well-being",
+          "nuance": "A broad concept including physical, mental and social wellness."
+        },
+        {
+          "term": "physical condition",
+          "nuance": "The state of a person’s body or fitness."
+        },
+        {
+          "term": "healthcare",
+          "nuance": "The system and services that prevent or treat illness."
+        }
+      ],
+      "prompt": "Government spending on public ___ should include clinics and preventive services.",
+      "choices": [
+        "well-being",
+        "physical condition",
+        "healthcare"
+      ],
+      "best": "healthcare",
+      "explanation": "Healthcare refers to services and the system that delivers them. Well-being is broader personal wellness; physical condition focuses on the body.",
+      "uzbek_hint": "salomatlik / tibbiy xizmat",
+      "warning": ""
+    },
+    {
+      "id": 28,
+      "headword": "Family",
+      "category": "Households & relationships",
+      "alternatives": [
+        {
+          "term": "household",
+          "nuance": "People living together in one home; used in surveys and statistics."
+        },
+        {
+          "term": "domestic unit",
+          "nuance": "A very formal sociological term for a family or household."
+        }
+      ],
+      "prompt": "The census records the average number of people in each ___ .",
+      "choices": [
+        "household",
+        "domestic unit",
+        "family"
+      ],
+      "best": "household",
+      "explanation": "Household is the standard term in census and population statistics. Domestic unit is specialised and unusually formal.",
+      "uzbek_hint": "oila / uy xo‘jaligi",
+      "warning": ""
+    },
+    {
+      "id": 29,
+      "headword": "Teachers",
+      "category": "Education roles",
+      "alternatives": [
+        {
+          "term": "educators",
+          "nuance": "A broad, formal term for people involved in teaching and education."
+        },
+        {
+          "term": "tutors",
+          "nuance": "Teachers who often give individual or small-group instruction."
+        },
+        {
+          "term": "instructors",
+          "nuance": "People who teach a practical skill or structured course."
+        }
+      ],
+      "prompt": "Driving ___ must explain road rules and demonstrate safe techniques.",
+      "choices": [
+        "educators",
+        "tutors",
+        "instructors"
+      ],
+      "best": "instructors",
+      "explanation": "Instructors is the natural term for people teaching a practical skill such as driving. Tutors often work one-to-one; educators is broader.",
+      "uzbek_hint": "o‘qituvchilar / instruktorlar",
+      "warning": ""
+    },
+    {
+      "id": 30,
+      "headword": "Adults",
+      "category": "Age groups",
+      "alternatives": [
+        {
+          "term": "grown-ups",
+          "nuance": "An informal, everyday term for adults."
+        },
+        {
+          "term": "mature individuals",
+          "nuance": "A formal phrase that can emphasise life stage or maturity."
+        }
+      ],
+      "prompt": "The evening course is designed for ___ who are returning to education after employment.",
+      "choices": [
+        "grown-ups",
+        "mature individuals",
+        "adults"
+      ],
+      "best": "mature individuals",
+      "explanation": "Mature individuals is the more formal choice in an academic description. Grown-ups is conversational and less suitable for formal writing.",
+      "uzbek_hint": "kattalar / voyaga yetganlar",
+      "warning": ""
+    },
+    {
+      "id": 31,
+      "headword": "Social",
+      "category": "Society & interaction",
+      "alternatives": [
+        {
+          "term": "communal",
+          "nuance": "Shared by members of a community or group."
+        },
+        {
+          "term": "societal",
+          "nuance": "Relating to society as a whole, its structures or norms."
+        },
+        {
+          "term": "public",
+          "nuance": "Relating to people generally or to places/services open to everyone."
+        }
+      ],
+      "prompt": "The research examines how ___ norms change across generations.",
+      "choices": [
+        "communal",
+        "societal",
+        "public"
+      ],
+      "best": "societal",
+      "explanation": "Societal norms are the conventions of a society as a whole. Communal focuses on a particular group; public has a different range of uses.",
+      "uzbek_hint": "ijtimoiy / jamiyatga oid",
+      "warning": ""
+    },
+    {
+      "id": 32,
+      "headword": "Public (adjective)",
+      "category": "Public services & civic life",
+      "alternatives": [
+        {
+          "term": "state-funded / state-run",
+          "nuance": "Specifies that a service is financed or operated by the government."
+        },
+        {
+          "term": "civic",
+          "nuance": "Relating to a city, citizens or duties within a community."
+        },
+        {
+          "term": "community",
+          "nuance": "Describes something serving or belonging to a local community."
+        }
+      ],
+      "prompt": "The transport authority expanded its ___ bus network using government funding.",
+      "choices": [
+        "civic",
+        "state-funded",
+        "community"
+      ],
+      "best": "state-funded",
+      "explanation": "State-funded specifies the source of the funding. Civic relates to citizenship or the city; community describes the people or area served.",
+      "uzbek_hint": "davlat / jamoat",
+      "warning": ""
+    },
+    {
+      "id": 33,
+      "headword": "Local",
+      "category": "Place & region",
+      "alternatives": [
+        {
+          "term": "community-based",
+          "nuance": "Organised around or serving a particular local community."
+        },
+        {
+          "term": "neighbourhood",
+          "nuance": "Relating to a specific residential area."
+        },
+        {
+          "term": "regional",
+          "nuance": "Relating to a wider area made up of several localities."
+        }
+      ],
+      "prompt": "The programme supports ___ businesses that employ residents and serve nearby streets.",
+      "choices": [
+        "regional",
+        "community-based",
+        "neighbourhood"
+      ],
+      "best": "community-based",
+      "explanation": "Community-based highlights businesses rooted in and serving the local community. Neighbourhood is a specific residential area; regional is broader.",
+      "uzbek_hint": "mahalliy / hududiy",
+      "warning": ""
+    },
+    {
+      "id": 34,
+      "headword": "Time",
+      "category": "Leisure & historical periods",
+      "alternatives": [
+        {
+          "term": "leisure hours",
+          "nuance": "Time available for activities outside work or essential duties."
+        },
+        {
+          "term": "an era",
+          "nuance": "A distinct period in history or in a particular field."
+        }
+      ],
+      "prompt": "Many people use their ___ to read, exercise or spend time with friends.",
+      "choices": [
+        "leisure hours",
+        "an era",
+        "free time"
+      ],
+      "best": "leisure hours",
+      "explanation": "Leisure hours means non-working time available for recreation. An era is a historical period, not an amount of free time.",
+      "uzbek_hint": "bo‘sh vaqt / davr",
+      "warning": ""
+    },
+    {
+      "id": 35,
+      "headword": "Life",
+      "category": "Lifestyle & daily routine",
+      "alternatives": [
+        {
+          "term": "existence",
+          "nuance": "A broad, often philosophical term for the state or experience of living."
+        },
+        {
+          "term": "lifestyles / ways of living",
+          "nuance": "Patterns in how people organise their everyday lives."
+        },
+        {
+          "term": "daily routines",
+          "nuance": "Regular activities carried out each day."
+        }
+      ],
+      "prompt": "The app sends reminders to help users organise their morning and evening ___ .",
+      "choices": [
+        "existence",
+        "lifestyles",
+        "daily routines"
+      ],
+      "best": "daily routines",
+      "explanation": "Daily routines refers to repeated everyday activities. Lifestyles is broader; existence is abstract and philosophical.",
+      "uzbek_hint": "hayot / kundalik tartib",
+      "warning": ""
+    },
+    {
+      "id": 36,
+      "headword": "Experience (noun)",
+      "category": "Employment & learning",
+      "alternatives": [
+        {
+          "term": "practical knowledge",
+          "nuance": "Know-how gained by doing something in real situations; emphasises hands-on understanding."
+        },
+        {
+          "term": "expertise",
+          "nuance": "A high level of specialised knowledge or skill, usually developed over substantial practice."
+        }
+      ],
+      "prompt": "The training gave new employees practical ___ of workplace safety procedures.",
+      "choices": [
+        "practical knowledge",
+        "expertise",
+        "experience"
+      ],
+      "best": "practical knowledge",
+      "explanation": "Practical knowledge highlights hands-on know-how. Expertise implies a high level of specialised ability, which a short training course may not yet provide.",
+      "uzbek_hint": "amaliy bilim / ish jarayonida orttirilgan bilim",
+      "warning": ""
+    },
+    {
+      "id": 37,
+      "headword": "Skills",
+      "category": "Abilities & competence",
+      "alternatives": [
+        {
+          "term": "abilities",
+          "nuance": "General capacity to do something."
+        },
+        {
+          "term": "competencies",
+          "nuance": "Specific abilities and knowledge needed to perform a role or task."
+        },
+        {
+          "term": "prowess",
+          "nuance": "Impressive or exceptional skill, often in a particular area."
+        }
+      ],
+      "prompt": "The training programme identifies the core ___ required for a laboratory assistant.",
+      "choices": [
+        "prowess",
+        "competencies",
+        "abilities"
+      ],
+      "best": "competencies",
+      "explanation": "Competencies are the defined combination of skills and knowledge needed for a role. Prowess suggests exceptional skill; abilities is broader.",
+      "uzbek_hint": "ko‘nikmalar / kompetensiyalar",
+      "warning": ""
+    },
+    {
+      "id": 38,
+      "headword": "Information",
+      "category": "Data & knowledge",
+      "alternatives": [
+        {
+          "term": "data",
+          "nuance": "Raw facts, measurements or figures that can be analysed."
+        },
+        {
+          "term": "knowledge",
+          "nuance": "Information that has been understood or organised into understanding."
+        }
+      ],
+      "prompt": "The research team published the raw ___ collected from the sensors.",
+      "choices": [
+        "knowledge",
+        "data",
+        "information"
+      ],
+      "best": "data",
+      "explanation": "Data is the precise word for raw measurements from sensors. Knowledge implies information that has been interpreted or understood.",
+      "uzbek_hint": "ma’lumot / bilim",
+      "warning": ""
+    },
+    {
+      "id": 39,
+      "headword": "Community",
+      "category": "People & place",
+      "alternatives": [
+        {
+          "term": "society",
+          "nuance": "A broader group of people living within a country or social system."
+        },
+        {
+          "term": "the populace",
+          "nuance": "The inhabitants of an area considered as a population; formal."
+        },
+        {
+          "term": "neighbourhood",
+          "nuance": "A specific residential area."
+        }
+      ],
+      "prompt": "The new library became a meeting place for people living on nearby streets, strengthening the ___ .",
+      "choices": [
+        "society",
+        "neighbourhood",
+        "populace"
+      ],
+      "best": "neighbourhood",
+      "explanation": "Neighbourhood is the precise local residential area. Society is much broader; populace refers to inhabitants as a group.",
+      "uzbek_hint": "mahalla / hamjamiyat",
+      "warning": ""
+    },
+    {
+      "id": 40,
+      "headword": "Economic",
+      "category": "Money & policy",
+      "alternatives": [
+        {
+          "term": "financial",
+          "nuance": "Relating to money, budgets, income or the management of funds."
+        },
+        {
+          "term": "monetary",
+          "nuance": "Relating specifically to money supply, currency or central-bank policy."
+        }
+      ],
+      "prompt": "The central bank announced a new ___ policy to manage inflation.",
+      "choices": [
+        "financial",
+        "monetary",
+        "economic"
+      ],
+      "best": "monetary",
+      "explanation": "Monetary policy is the standard term for central-bank actions involving money and interest rates. Financial is broader.",
+      "uzbek_hint": "iqtisodiy / moliyaviy",
+      "warning": ""
+    },
+    {
+      "id": 41,
+      "headword": "Personal",
+      "category": "Individual perspective",
+      "alternatives": [
+        {
+          "term": "individual",
+          "nuance": "Relating to one person rather than a group."
+        },
+        {
+          "term": "private",
+          "nuance": "Belonging to or intended for one person, not public access."
+        },
+        {
+          "term": "subjective",
+          "nuance": "Based on personal feelings or opinions rather than objective facts."
+        }
+      ],
+      "prompt": "Whether a painting is beautiful is often a ___ judgement rather than a measurable fact.",
+      "choices": [
+        "individual",
+        "private",
+        "subjective"
+      ],
+      "best": "subjective",
+      "explanation": "Subjective is precise because the judgement depends on personal taste. Private means not public; individual means relating to one person.",
+      "uzbek_hint": "shaxsiy / subyektiv",
+      "warning": ""
+    },
+    {
+      "id": 42,
+      "headword": "National",
+      "category": "Country-wide scope",
+      "alternatives": [
+        {
+          "term": "nationwide",
+          "nuance": "Extending across the whole country."
+        },
+        {
+          "term": "domestic",
+          "nuance": "Relating to matters within a country, often contrasted with foreign or international."
+        }
+      ],
+      "prompt": "The vaccination campaign will operate ___, with clinics in every province.",
+      "choices": [
+        "domestic",
+        "nationwide",
+        "national"
+      ],
+      "best": "nationwide",
+      "explanation": "Nationwide clearly means the campaign extends across the whole country. Domestic describes internal matters or markets more broadly.",
+      "uzbek_hint": "milliy / mamlakat bo‘ylab",
+      "warning": ""
+    },
+    {
+      "id": 43,
+      "headword": "Significant",
+      "category": "Amount & degree",
+      "alternatives": [
+        {
+          "term": "substantial",
+          "nuance": "Large in amount, size or degree."
+        },
+        {
+          "term": "considerable",
+          "nuance": "Fairly large or important in amount or extent."
+        },
+        {
+          "term": "marked",
+          "nuance": "Clearly noticeable or distinct."
+        }
+      ],
+      "prompt": "The report shows a ___ increase in sales, from 100 to 180 units.",
+      "choices": [
+        "marked",
+        "substantial",
+        "considerable"
+      ],
+      "best": "marked",
+      "explanation": "Marked highlights a clearly noticeable change. Substantial and considerable emphasise size or amount; all may fit other contexts.",
+      "uzbek_hint": "sezilarli / katta",
+      "warning": ""
+    },
+    {
+      "id": 44,
+      "headword": "Possible",
+      "category": "Feasibility & solutions",
+      "alternatives": [
+        {
+          "term": "feasible",
+          "nuance": "Possible and practical to carry out."
+        },
+        {
+          "term": "viable",
+          "nuance": "Capable of working successfully, often financially or operationally."
+        },
+        {
+          "term": "attainable",
+          "nuance": "Able to be reached or achieved, especially a goal or target."
+        }
+      ],
+      "prompt": "The engineers are checking whether the proposal is financially ___ over ten years.",
+      "choices": [
+        "attainable",
+        "feasible",
+        "viable"
+      ],
+      "best": "viable",
+      "explanation": "Viable is especially appropriate when asking whether a proposal can work financially. Feasible concerns practical possibility; attainable suits goals.",
+      "uzbek_hint": "mumkin / amalga oshirish mumkin",
+      "warning": ""
+    },
+    {
+      "id": 45,
+      "headword": "Available",
+      "category": "Access & resources",
+      "alternatives": [
+        {
+          "term": "accessible",
+          "nuance": "Easy or possible to reach, obtain or use."
+        },
+        {
+          "term": "obtainable",
+          "nuance": "Possible to get or acquire."
+        },
+        {
+          "term": "on hand",
+          "nuance": "Present and ready for immediate use."
+        }
+      ],
+      "prompt": "The online course is ___ to registered learners at any time of day.",
+      "choices": [
+        "on hand",
+        "accessible",
+        "obtainable"
+      ],
+      "best": "accessible",
+      "explanation": "Accessible describes a service that users can reach or use. On hand means physically present and ready; obtainable means possible to get.",
+      "uzbek_hint": "mavjud / foydalanish mumkin",
+      "warning": ""
+    },
+    {
+      "id": 46,
+      "headword": "Common",
+      "category": "Frequency & spread",
+      "alternatives": [
+        {
+          "term": "widespread",
+          "nuance": "Found across a large area or among many people."
+        },
+        {
+          "term": "ubiquitous",
+          "nuance": "Present or found almost everywhere; strong and formal."
+        },
+        {
+          "term": "frequent",
+          "nuance": "Happening often, rather than necessarily being widespread."
+        }
+      ],
+      "prompt": "Traffic congestion is a ___ problem in large cities around the world.",
+      "choices": [
+        "frequent",
+        "widespread",
+        "ubiquitous"
+      ],
+      "best": "widespread",
+      "explanation": "Widespread focuses on how broadly the problem occurs. Frequent focuses on how often it happens; ubiquitous means almost everywhere and is stronger.",
+      "uzbek_hint": "keng tarqalgan / odatiy",
+      "warning": ""
+    },
+    {
+      "id": 47,
+      "headword": "Successful",
+      "category": "Positive outcomes",
+      "alternatives": [
+        {
+          "term": "fruitful",
+          "nuance": "Producing useful results, especially discussions, research or cooperation."
+        },
+        {
+          "term": "prosperous",
+          "nuance": "Financially successful or flourishing."
+        },
+        {
+          "term": "thriving",
+          "nuance": "Growing or developing strongly and healthily."
+        }
+      ],
+      "prompt": "The discussion was ___ because the group produced several workable solutions.",
+      "choices": [
+        "prosperous",
+        "fruitful",
+        "thriving"
+      ],
+      "best": "fruitful",
+      "explanation": "Fruitful is a natural choice for a discussion that produces useful ideas. Prosperous is mainly financial; thriving describes strong growth.",
+      "uzbek_hint": "muvaffaqiyatli / samarali",
+      "warning": ""
+    },
+    {
+      "id": 48,
+      "headword": "General",
+      "category": "Overall scope",
+      "alternatives": [
+        {
+          "term": "overall",
+          "nuance": "Considering the whole situation or all parts together."
+        },
+        {
+          "term": "broad",
+          "nuance": "Wide in range or scope, not detailed."
+        },
+        {
+          "term": "prevailing",
+          "nuance": "Existing or most common at a particular time."
+        }
+      ],
+      "prompt": "The report gives an ___ overview before examining individual regions.",
+      "choices": [
+        "prevailing",
+        "overall",
+        "broad"
+      ],
+      "best": "overall",
+      "explanation": "Overall overview signals a summary of the whole picture. Broad means wide-ranging; prevailing describes the dominant current view or condition.",
+      "uzbek_hint": "umumiy / umumlashtirilgan",
+      "warning": ""
+    },
+    {
+      "id": 49,
+      "headword": "Popular",
+      "category": "Public preference",
+      "alternatives": [
+        {
+          "term": "widespread",
+          "nuance": "Used or found across many places or people."
+        },
+        {
+          "term": "prevalent",
+          "nuance": "Common or widespread within a particular group or period."
+        }
+      ],
+      "prompt": "The belief is particularly ___ among first-year university students.",
+      "choices": [
+        "widespread",
+        "prevalent",
+        "popular"
+      ],
+      "best": "prevalent",
+      "explanation": "Prevalent fits a belief common within a defined group. Widespread stresses broad distribution; popular often implies approval or liking.",
+      "uzbek_hint": "mashhur / keng tarqalgan",
+      "warning": ""
+    },
+    {
+      "id": 50,
+      "headword": "More (comparative)",
+      "category": "Quantity & addition",
+      "alternatives": [
+        {
+          "term": "greater",
+          "nuance": "A larger amount, degree or level; often used with effort, importance or impact."
+        },
+        {
+          "term": "additional",
+          "nuance": "Extra or added to what already exists."
+        },
+        {
+          "term": "further",
+          "nuance": "Extra or additional, especially research, discussion, detail or progress."
+        }
+      ],
+      "prompt": "The revised budget allocates a ___ amount of funding to rural schools than last year.",
+      "choices": [
+        "greater",
+        "additional",
+        "further"
+      ],
+      "best": "greater",
+      "explanation": "Greater fits the comparative structure “a greater amount ... than”. Additional means extra funding, while further is more usual with research, discussion or detail.",
+      "uzbek_hint": "ko‘proq / kattaroq miqdor",
+      "warning": ""
+    }
+  ],
+  "qualityNotes": [
+    "The source presents contextual alternatives, not fully interchangeable synonyms.",
+    "The learner should prefer precise, natural wording over impressive-looking vocabulary.",
+    "Five starter concepts, contextual practice, pressure testing and gradual integration are the recommended learning sequence."
+  ]
+}
